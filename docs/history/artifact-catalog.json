@@ -1,0 +1,554 @@
+[
+  {
+    "name": "B30_1.9.1_WIP_Cloud_Handoff.zip",
+    "archive_created_utc": "2026-10-04T07:06:36.111979Z",
+    "size_bytes": 27511206,
+    "kind": "application/zip"
+  },
+  {
+    "name": "B30_1.9.0_R1_Browser_Direct_Slim.zip",
+    "archive_created_utc": "2026-09-24T12:02:44.684437Z",
+    "size_bytes": 8883034,
+    "kind": "application/zip"
+  },
+  {
+    "name": "B30_1.9.0_R1_Browser_Direct.zip",
+    "archive_created_utc": "2026-09-24T11:21:52.043070Z",
+    "size_bytes": 253886523,
+    "kind": "application/zip"
+  },
+  {
+    "name": "B30_1.9.0_R1_OneClick_Update.zip",
+    "archive_created_utc": "2026-09-24T10:48:11.715522Z",
+    "size_bytes": 182012,
+    "kind": "application/zip"
+  },
+  {
+    "name": "B30_1.9.0_Rebuild_20260924_R1_Audit.zip",
+    "archive_created_utc": "2026-09-24T09:03:46.181509Z",
+    "size_bytes": 1328305,
+    "kind": "application/zip"
+  },
+  {
+    "name": "B30_1.9.0_Rebuild_20260924_R1_Lite.zip",
+    "archive_created_utc": "2026-09-24T09:03:46.078576Z",
+    "size_bytes": 168387,
+    "kind": "application/zip"
+  },
+  {
+    "name": "B30_1.8.8_独立复核与截图对照.md",
+    "archive_created_utc": "2026-09-24T08:29:44.135115Z",
+    "size_bytes": 15118,
+    "kind": "text/markdown"
+  },
+  {
+    "name": "B30_1.9.0_Update_From_1.8.8_1.8.9_Lite.zip",
+    "archive_created_utc": "2026-09-23T14:18:57.936805Z",
+    "size_bytes": 152704,
+    "kind": "application/zip"
+  },
+  {
+    "name": "B30_1.9.0_审计材料.zip",
+    "archive_created_utc": "2026-09-23T14:19:05.824551Z",
+    "size_bytes": 391984,
+    "kind": "application/zip"
+  },
+  {
+    "name": "B30_1.9.0_修复与验证说明.md",
+    "archive_created_utc": "2026-09-23T14:19:02.868950Z",
+    "size_bytes": 9330,
+    "kind": "text/markdown"
+  },
+  {
+    "name": "B30_1.8.9_Update_From_1.8.8_Lite.zip",
+    "archive_created_utc": "2026-09-23T13:41:42.575525Z",
+    "size_bytes": 41343,
+    "kind": "application/zip"
+  },
+  {
+    "name": "B30_1.8.9_Update_From_1.8.8_Lite.zip",
+    "archive_created_utc": "2026-09-22T11:27:11.279535Z",
+    "size_bytes": 41343,
+    "kind": "application/zip"
+  },
+  {
+    "name": "B30_1.8.8_项目接续与首播排查.md",
+    "archive_created_utc": "2026-09-22T06:45:32.857873Z",
+    "size_bytes": 7413,
+    "kind": "text/markdown"
+  },
+  {
+    "name": "B30_1.8.8_Update_From_1.8.7_Lite.zip",
+    "archive_created_utc": "2026-09-22T06:17:00.556526Z",
+    "size_bytes": 464288,
+    "kind": "application/zip"
+  },
+  {
+    "name": "B30_1.8.8_验证与校验.txt",
+    "archive_created_utc": "2026-09-22T04:27:58.718666Z",
+    "size_bytes": 2968,
+    "kind": "text/plain"
+  },
+  {
+    "name": "B30_1.8.8_Full_Native_AB.zip",
+    "archive_created_utc": "2026-09-22T04:27:58.706773Z",
+    "size_bytes": 254106100,
+    "kind": "application/zip"
+  },
+  {
+    "name": "B30_1.8.7_Full_Native_AB.zip",
+    "archive_created_utc": "2026-09-15T07:09:23.649993Z",
+    "size_bytes": 254196342,
+    "kind": "application/zip"
+  },
+  {
+    "name": "B30_1.8.7_验证与校验.txt",
+    "archive_created_utc": "2026-09-15T07:09:23.587780Z",
+    "size_bytes": 1914,
+    "kind": "text/plain"
+  },
+  {
+    "name": "B30_1.8.6_验证与校验.txt",
+    "archive_created_utc": "2026-09-12T09:22:24.379526Z",
+    "size_bytes": 2564,
+    "kind": "text/plain"
+  },
+  {
+    "name": "B30_1.8.6_Full_Native_AB.zip",
+    "archive_created_utc": "2026-09-12T09:22:24.361727Z",
+    "size_bytes": 254087246,
+    "kind": "application/zip"
+  },
+  {
+    "name": "B30_1.8.5_Full_Native_AB.zip",
+    "archive_created_utc": "2026-09-10T07:33:29.543991Z",
+    "size_bytes": 254190625,
+    "kind": "application/zip"
+  },
+  {
+    "name": "B30_1.8.5_SHA256_与验证.txt",
+    "archive_created_utc": "2026-09-10T07:33:29.441956Z",
+    "size_bytes": 543,
+    "kind": "text/plain"
+  },
+  {
+    "name": "B30_1.8.5_最终验证.json",
+    "archive_created_utc": "2026-09-10T07:33:29.419978Z",
+    "size_bytes": 732,
+    "kind": "application/json"
+  },
+  {
+    "name": "B30_1.8.4_回归结果.json",
+    "archive_created_utc": "2026-09-09T13:20:41.373731Z",
+    "size_bytes": 7463,
+    "kind": "application/json"
+  },
+  {
+    "name": "B30_1.8.4_原因与修复说明.md",
+    "archive_created_utc": "2026-09-09T13:20:41.275674Z",
+    "size_bytes": 6060,
+    "kind": "text/markdown"
+  },
+  {
+    "name": "B30_1.8.4_SHA256_与验证.txt",
+    "archive_created_utc": "2026-09-09T13:20:41.273678Z",
+    "size_bytes": 1175,
+    "kind": "text/plain"
+  },
+  {
+    "name": "B30_1.8.4_回归日志.txt",
+    "archive_created_utc": "2026-09-09T13:20:41.271357Z",
+    "size_bytes": 1771,
+    "kind": "text/plain"
+  },
+  {
+    "name": "B30_1.8.4_Full_Native_AB.zip",
+    "archive_created_utc": "2026-09-09T13:20:41.226226Z",
+    "size_bytes": 254071614,
+    "kind": "application/zip"
+  },
+  {
+    "name": "B30_1.8.4_安装与现场验收.txt",
+    "archive_created_utc": "2026-09-09T13:20:41.215929Z",
+    "size_bytes": 5443,
+    "kind": "text/plain"
+  },
+  {
+    "name": "B30_1.8.4_最终验证.json",
+    "archive_created_utc": "2026-09-09T13:20:41.187826Z",
+    "size_bytes": 3148,
+    "kind": "application/json"
+  },
+  {
+    "name": "B30_1.8.3_原因与修复说明.md",
+    "archive_created_utc": "2026-09-09T12:27:53.573371Z",
+    "size_bytes": 4249,
+    "kind": "text/markdown"
+  },
+  {
+    "name": "B30_1.8.3_SHA256_与验证.txt",
+    "archive_created_utc": "2026-09-09T12:27:53.560919Z",
+    "size_bytes": 1103,
+    "kind": "text/plain"
+  },
+  {
+    "name": "B30_1.8.3_Full_Native_AB.zip",
+    "archive_created_utc": "2026-09-09T12:27:53.553311Z",
+    "size_bytes": 254035930,
+    "kind": "application/zip"
+  },
+  {
+    "name": "B30_1.8.3_回归日志.txt",
+    "archive_created_utc": "2026-09-09T12:27:53.550001Z",
+    "size_bytes": 1561,
+    "kind": "text/plain"
+  },
+  {
+    "name": "B30_1.8.3_安装与验收.txt",
+    "archive_created_utc": "2026-09-09T12:27:53.536256Z",
+    "size_bytes": 2610,
+    "kind": "text/plain"
+  },
+  {
+    "name": "B30_1.8.3_回归结果.json",
+    "archive_created_utc": "2026-09-09T12:27:53.533528Z",
+    "size_bytes": 6467,
+    "kind": "application/json"
+  },
+  {
+    "name": "B30_1.8.2_安装与验收.txt",
+    "archive_created_utc": "2026-09-09T12:08:43.109401Z",
+    "size_bytes": 1402,
+    "kind": "text/plain"
+  },
+  {
+    "name": "B30_1.8.2_回归结果.json",
+    "archive_created_utc": "2026-09-09T12:08:43.097564Z",
+    "size_bytes": 6282,
+    "kind": "application/json"
+  },
+  {
+    "name": "B30_1.8.2_回归日志.txt",
+    "archive_created_utc": "2026-09-09T12:08:43.092818Z",
+    "size_bytes": 1521,
+    "kind": "text/plain"
+  },
+  {
+    "name": "B30_1.8.2_Full_Native_AB.zip",
+    "archive_created_utc": "2026-09-09T12:08:43.019818Z",
+    "size_bytes": 254023543,
+    "kind": "application/zip"
+  },
+  {
+    "name": "B30_1.8.2_SHA256_与验证.txt",
+    "archive_created_utc": "2026-09-09T12:08:43.014065Z",
+    "size_bytes": 915,
+    "kind": "text/plain"
+  },
+  {
+    "name": "B30_1.8.1_安装与现场验收.txt",
+    "archive_created_utc": "2026-09-09T10:50:19.509250Z",
+    "size_bytes": 3007,
+    "kind": "text/plain"
+  },
+  {
+    "name": "B30_1.8.1_Full_Native_AB.zip",
+    "archive_created_utc": "2026-09-09T10:50:19.453726Z",
+    "size_bytes": 254013125,
+    "kind": "application/zip"
+  },
+  {
+    "name": "B30_1.8.1_SHA256_与验证.txt",
+    "archive_created_utc": "2026-09-09T10:50:19.416237Z",
+    "size_bytes": 1437,
+    "kind": "text/plain"
+  },
+  {
+    "name": "B30_1.8.0_Full_Native_AB.zip",
+    "archive_created_utc": "2026-09-09T07:51:30.468769Z",
+    "size_bytes": 254063471,
+    "kind": "application/zip"
+  },
+  {
+    "name": "B30_1.8.0_验证与说明.txt",
+    "archive_created_utc": "2026-09-09T07:51:30.412500Z",
+    "size_bytes": 2757,
+    "kind": "text/plain"
+  },
+  {
+    "name": "B30_1.7.12_Full_Native_AB.zip",
+    "archive_created_utc": "2026-09-08T19:38:51.458502Z",
+    "size_bytes": 254048346,
+    "kind": "application/zip"
+  },
+  {
+    "name": "B30_1.7.12_验证与说明.txt",
+    "archive_created_utc": "2026-09-08T19:38:51.384618Z",
+    "size_bytes": 2206,
+    "kind": "text/plain"
+  },
+  {
+    "name": "B30_1.7.11_验证与说明.txt",
+    "archive_created_utc": "2026-09-08T18:09:08.659981Z",
+    "size_bytes": 5576,
+    "kind": "text/plain"
+  },
+  {
+    "name": "B30_1.7.11_Full_Native_AB.zip",
+    "archive_created_utc": "2026-09-08T14:41:12.827912Z",
+    "size_bytes": 253922724,
+    "kind": "application/zip"
+  },
+  {
+    "name": "B30_1.7.10_验证结果.txt",
+    "archive_created_utc": "2026-09-08T15:24:47.176407Z",
+    "size_bytes": 3967,
+    "kind": "text/plain"
+  },
+  {
+    "name": "B30_1.7.8_Full_Native_AB.zip",
+    "archive_created_utc": "2026-09-07T19:45:47.997530Z",
+    "size_bytes": 253795011,
+    "kind": "application/zip"
+  },
+  {
+    "name": "B30_1.7.8_Release_Verification.txt",
+    "archive_created_utc": "2026-09-07T21:35:01.545639Z",
+    "size_bytes": 3237,
+    "kind": "text/plain"
+  },
+  {
+    "name": "B30_Offline_Record_Analyzer.html",
+    "archive_created_utc": "2026-09-07T21:10:30.804668Z",
+    "size_bytes": 38985,
+    "kind": "text/html"
+  },
+  {
+    "name": "B30_Diagnostic_1.0.1.zip",
+    "archive_created_utc": "2026-09-07T20:49:48.020555Z",
+    "size_bytes": 84246,
+    "kind": "application/zip"
+  },
+  {
+    "name": "B30_Diagnostic.cmd",
+    "archive_created_utc": "2026-09-07T20:49:47.904450Z",
+    "size_bytes": 30436,
+    "kind": "application/octet-stream"
+  },
+  {
+    "name": "B30_1.7.7_Release_Verification.txt",
+    "archive_created_utc": "2026-09-07T19:45:48.002057Z",
+    "size_bytes": 3516,
+    "kind": "text/plain"
+  },
+  {
+    "name": "B30_1.7.6_Browser_Final.zip",
+    "archive_created_utc": "2026-09-07T17:15:30.544638Z",
+    "size_bytes": 253737913,
+    "kind": "application/zip"
+  },
+  {
+    "name": "B30_1.7.5_Browser_Final.zip",
+    "archive_created_utc": "2026-09-07T15:48:49.113195Z",
+    "size_bytes": 253729799,
+    "kind": "application/zip"
+  },
+  {
+    "name": "B30_1.7.4_Browser_Update_From_1.7.3.zip",
+    "archive_created_utc": "2026-09-07T13:09:36.502667Z",
+    "size_bytes": 420268,
+    "kind": "application/zip"
+  },
+  {
+    "name": "B30_1.7.4_Browser_Final.zip",
+    "archive_created_utc": "2026-09-07T13:09:36.433488Z",
+    "size_bytes": 253727556,
+    "kind": "application/zip"
+  },
+  {
+    "name": "B30_1.7.3_Browser_Final.zip",
+    "archive_created_utc": "2026-09-07T12:22:20.333388Z",
+    "size_bytes": 253674356,
+    "kind": "application/zip"
+  },
+  {
+    "name": "B30_1.7.2_Browser_Final.zip",
+    "archive_created_utc": "2026-09-07T09:25:40.231595Z",
+    "size_bytes": 253664748,
+    "kind": "application/zip"
+  },
+  {
+    "name": "B30_1.7.1_Browser_Final.zip",
+    "archive_created_utc": "2026-09-07T07:12:19.436837Z",
+    "size_bytes": 253651211,
+    "kind": "application/zip"
+  },
+  {
+    "name": "Wuhu_B30_Development_Retrospective_to_1.7.0.md",
+    "archive_created_utc": "2026-09-05T19:55:54.106760Z",
+    "size_bytes": 16809,
+    "kind": "text/markdown"
+  },
+  {
+    "name": "B30_1.7.0_Browser_Final.zip",
+    "archive_created_utc": "2026-09-05T19:30:42.475230Z",
+    "size_bytes": 253640274,
+    "kind": "application/zip"
+  },
+  {
+    "name": "B30_1.7.0_News_Weather_Guide.md",
+    "archive_created_utc": "2026-09-05T19:30:42.363154Z",
+    "size_bytes": 10135,
+    "kind": "text/markdown"
+  },
+  {
+    "name": "B30_1.6.9_Arrival_Preview.jpg",
+    "archive_created_utc": "2026-09-05T18:13:12.681151Z",
+    "size_bytes": 292873,
+    "kind": "image/jpeg"
+  },
+  {
+    "name": "B30_1.6.9_News_Preview.jpg",
+    "archive_created_utc": "2026-09-05T18:13:12.674725Z",
+    "size_bytes": 289463,
+    "kind": "image/jpeg"
+  },
+  {
+    "name": "B30_1.6.9_News_Weather_Guide.md",
+    "archive_created_utc": "2026-09-05T18:13:12.431259Z",
+    "size_bytes": 14362,
+    "kind": "text/markdown"
+  },
+  {
+    "name": "B30_1.6.9_Browser_Final.zip",
+    "archive_created_utc": "2026-09-05T18:13:12.402814Z",
+    "size_bytes": 253620551,
+    "kind": "application/zip"
+  },
+  {
+    "name": "B30_1.6.8_Browser_Final.zip",
+    "archive_created_utc": "2026-09-05T17:44:55.398202Z",
+    "size_bytes": 253613377,
+    "kind": "application/zip"
+  },
+  {
+    "name": "B30_1.6.8_Official_Warning_Preview.jpg",
+    "archive_created_utc": "2026-09-05T17:44:55.261085Z",
+    "size_bytes": 289355,
+    "kind": "image/jpeg"
+  },
+  {
+    "name": "B30_1.6.8_Night_News_Preview.jpg",
+    "archive_created_utc": "2026-09-05T17:44:55.238192Z",
+    "size_bytes": 283801,
+    "kind": "image/jpeg"
+  },
+  {
+    "name": "B30_1.6.8_News_Weather_Guide.md",
+    "archive_created_utc": "2026-09-05T17:44:55.154765Z",
+    "size_bytes": 14022,
+    "kind": "text/markdown"
+  },
+  {
+    "name": "B30_1.6.7_Final_Preview.jpg",
+    "archive_created_utc": "2026-09-05T15:21:42.281815Z",
+    "size_bytes": 276429,
+    "kind": "image/jpeg"
+  },
+  {
+    "name": "B30_1.6.7_Browser_Final.zip",
+    "archive_created_utc": "2026-09-05T15:21:41.995277Z",
+    "size_bytes": 253588190,
+    "kind": "application/zip"
+  },
+  {
+    "name": "B30_No_Weather_Alert_Preview.jpg",
+    "archive_created_utc": "2026-09-05T14:48:47.851894Z",
+    "size_bytes": 276556,
+    "kind": "image/jpeg"
+  },
+  {
+    "name": "B30_Balanced_Footer_Preview.jpg",
+    "archive_created_utc": "2026-09-05T14:44:28.502925Z",
+    "size_bytes": 281311,
+    "kind": "image/jpeg"
+  },
+  {
+    "name": "B30_1.6.6_Preview.jpg",
+    "archive_created_utc": "2026-09-05T10:00:47.158942Z",
+    "size_bytes": 279367,
+    "kind": "image/jpeg"
+  },
+  {
+    "name": "B30_1.6.6_Browser_Final.zip",
+    "archive_created_utc": "2026-09-05T10:00:47.031185Z",
+    "size_bytes": 253586808,
+    "kind": "application/zip"
+  },
+  {
+    "name": "B30_1.6.5_Preview.jpg",
+    "archive_created_utc": "2026-09-05T08:49:07.045158Z",
+    "size_bytes": 275524,
+    "kind": "image/jpeg"
+  },
+  {
+    "name": "B30_1.6.5_Browser_Final.zip",
+    "archive_created_utc": "2026-09-05T08:48:30.041504Z",
+    "size_bytes": 253541911,
+    "kind": "application/zip"
+  },
+  {
+    "name": "B30_1.6.4_Speaking_Preview.jpg",
+    "archive_created_utc": "2026-09-05T08:16:51.355517Z",
+    "size_bytes": 279196,
+    "kind": "image/jpeg"
+  },
+  {
+    "name": "B30_1.6.4_Idle_Preview.jpg",
+    "archive_created_utc": "2026-09-05T08:16:51.344015Z",
+    "size_bytes": 270802,
+    "kind": "image/jpeg"
+  },
+  {
+    "name": "B30_1.6.4_Browser_Final.zip",
+    "archive_created_utc": "2026-09-05T07:28:21.596680Z",
+    "size_bytes": 253539837,
+    "kind": "application/zip"
+  },
+  {
+    "name": "B30_1.6.3_Browser_Final.zip",
+    "archive_created_utc": "2026-09-04T22:25:51.013940Z",
+    "size_bytes": 253534937,
+    "kind": "application/zip"
+  },
+  {
+    "name": "B30_1.6.3_Development_Checkpoint_20260904.zip",
+    "archive_created_utc": "2026-09-04T21:56:23.324560Z",
+    "size_bytes": 11591553,
+    "kind": "application/zip"
+  },
+  {
+    "name": "B30_Wuhu_Station_1.6.2_Browser_Extension_20260904.zip",
+    "archive_created_utc": "2026-09-04T09:01:12.877757Z",
+    "size_bytes": 245968677,
+    "kind": "application/zip"
+  },
+  {
+    "name": "B30_Wuhu_Station_1.6.1_Final_Complete_Install_20260904.zip",
+    "archive_created_utc": "2026-09-04T08:22:10.119931Z",
+    "size_bytes": 246423717,
+    "kind": "application/zip"
+  },
+  {
+    "name": "B30_Wuhu_Station_1.6.0_Final_Complete_Install_20260903.zip",
+    "archive_created_utc": "2026-09-03T14:53:14.489839Z",
+    "size_bytes": 246422821,
+    "kind": "application/zip"
+  },
+  {
+    "name": "B30_Wuhu_Station_1.5.6_Final_Complete_Install_20260831.zip",
+    "archive_created_utc": "2026-09-03T13:41:51.178639Z",
+    "size_bytes": 245989639,
+    "kind": "application/zip"
+  }
+]
