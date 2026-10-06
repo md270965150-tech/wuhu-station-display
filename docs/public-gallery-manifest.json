@@ -1,0 +1,1254 @@
+{
+  "schema_version": 1,
+  "version": "1.9.3",
+  "capture_kind": "offline_synthetic_actual_browser_screen",
+  "synthetic_data_only": true,
+  "theme_count": 41,
+  "festival_and_observance_count": 17,
+  "solar_term_count": 24,
+  "full_image_count": 82,
+  "thumbnail_count": 82,
+  "full_image_dimensions": [
+    1920,
+    1080
+  ],
+  "thumbnail_dimensions": [
+    384,
+    216
+  ],
+  "full_images_preserve_original_bytes": true,
+  "thumbnail_transform": "whole-image resize, JPEG quality 88",
+  "scope": "Visual documentation only; screenshots do not establish voice, SSE, or Excel field acceptance.",
+  "themes": [
+    {
+      "id": "newyear",
+      "name": "元旦",
+      "category": "festival_and_observance",
+      "category_name": "节日与纪念日",
+      "day": {
+        "image": {
+          "path": "assets/themes-1.9.3/full/newyear-day.png",
+          "bytes": 781698,
+          "sha256": "47562c5cf19c851ee09b9904d04e86195da9c41a9982f2112d677bc3d9564414"
+        },
+        "thumbnail": {
+          "path": "assets/themes-1.9.3/thumbnails/newyear-day.jpg",
+          "bytes": 33820,
+          "sha256": "4e35accaef352c98496b3a7be290adbf1196ec82d890b7d9a7fbf9b3e7bd78af"
+        }
+      },
+      "night": {
+        "image": {
+          "path": "assets/themes-1.9.3/full/newyear-night.png",
+          "bytes": 785548,
+          "sha256": "3e91985e30c75667af3ef355a8c61fde632ed49560f9c875a00603e1d01ab8ba"
+        },
+        "thumbnail": {
+          "path": "assets/themes-1.9.3/thumbnails/newyear-night.jpg",
+          "bytes": 34427,
+          "sha256": "f7ff32355cf1d7064d39d24e7b9e64893507d682dba7954efe669519ef51bf52"
+        }
+      }
+    },
+    {
+      "id": "spring",
+      "name": "春节（含除夕）",
+      "category": "festival_and_observance",
+      "category_name": "节日与纪念日",
+      "day": {
+        "image": {
+          "path": "assets/themes-1.9.3/full/spring-day.png",
+          "bytes": 770588,
+          "sha256": "4d6630c281a89850c94382b452f0ec7fe088b2cbbfeaec67a387ad0dc675ba55"
+        },
+        "thumbnail": {
+          "path": "assets/themes-1.9.3/thumbnails/spring-day.jpg",
+          "bytes": 35004,
+          "sha256": "2529964857add0363efb615ec391f19658694ab147937acedaf8589efcf0684d"
+        }
+      },
+      "night": {
+        "image": {
+          "path": "assets/themes-1.9.3/full/spring-night.png",
+          "bytes": 780960,
+          "sha256": "fb25e1406840cee31c3cfb12737184e66ead9ce9ad811186794187da3278c847"
+        },
+        "thumbnail": {
+          "path": "assets/themes-1.9.3/thumbnails/spring-night.jpg",
+          "bytes": 35532,
+          "sha256": "a237c90b72a6b6b90907f6d2b4ce704be03c1c56c7be65dc8101bde3d8076a2b"
+        }
+      }
+    },
+    {
+      "id": "lantern",
+      "name": "元宵",
+      "category": "festival_and_observance",
+      "category_name": "节日与纪念日",
+      "day": {
+        "image": {
+          "path": "assets/themes-1.9.3/full/lantern-day.png",
+          "bytes": 765396,
+          "sha256": "ccc2b1c1867ccc641cac37984e49d3b07b8cbb15fabd6b25364e52dd4949caa7"
+        },
+        "thumbnail": {
+          "path": "assets/themes-1.9.3/thumbnails/lantern-day.jpg",
+          "bytes": 34874,
+          "sha256": "84a3fced5663d187431ce7b0ef0797a2adb3c8a344559aa32f92c7339a13b6b6"
+        }
+      },
+      "night": {
+        "image": {
+          "path": "assets/themes-1.9.3/full/lantern-night.png",
+          "bytes": 775130,
+          "sha256": "4df32304b8fcfb5d5061623235965498cc7786568f93f6767a89ed27fe0a828b"
+        },
+        "thumbnail": {
+          "path": "assets/themes-1.9.3/thumbnails/lantern-night.jpg",
+          "bytes": 35415,
+          "sha256": "034bf143154447374ce7832ff708be34cb2f38de65716577bd994cae9888b5a0"
+        }
+      }
+    },
+    {
+      "id": "qingming",
+      "name": "清明",
+      "category": "festival_and_observance",
+      "category_name": "节日与纪念日",
+      "day": {
+        "image": {
+          "path": "assets/themes-1.9.3/full/qingming-day.png",
+          "bytes": 748680,
+          "sha256": "321d231f73a35049c80fc435a3fabe625158e47f4a361d2bdf306c990be7fa4d"
+        },
+        "thumbnail": {
+          "path": "assets/themes-1.9.3/thumbnails/qingming-day.jpg",
+          "bytes": 33861,
+          "sha256": "6679c2c12956cc516f1d5b76f115179f90837796a0ef43d029ac6e052a3f8ef8"
+        }
+      },
+      "night": {
+        "image": {
+          "path": "assets/themes-1.9.3/full/qingming-night.png",
+          "bytes": 748702,
+          "sha256": "d0433ee120ddbd964005042ec7c11dd06e481537d905266fedbf8b27657dc792"
+        },
+        "thumbnail": {
+          "path": "assets/themes-1.9.3/thumbnails/qingming-night.jpg",
+          "bytes": 34530,
+          "sha256": "30cf865d9bf7fd58ae739432163daf5c8c4ca145d5210a6d13c40d9e5b694498"
+        }
+      }
+    },
+    {
+      "id": "labor",
+      "name": "劳动节",
+      "category": "festival_and_observance",
+      "category_name": "节日与纪念日",
+      "day": {
+        "image": {
+          "path": "assets/themes-1.9.3/full/labor-day.png",
+          "bytes": 734354,
+          "sha256": "e424d0cbcd4a0f65d099137a35e865fa9d9e10db73d9e6a67a27a100ccaf6ae5"
+        },
+        "thumbnail": {
+          "path": "assets/themes-1.9.3/thumbnails/labor-day.jpg",
+          "bytes": 34356,
+          "sha256": "73addd1ae850386a939ec97454827151f1d21f96dbd6ab8817115d4868d81a19"
+        }
+      },
+      "night": {
+        "image": {
+          "path": "assets/themes-1.9.3/full/labor-night.png",
+          "bytes": 741999,
+          "sha256": "2bb1a3a6f3cebdb4b46f1694aef173549e3aa1ddc40ef05dc083b3ca409b419c"
+        },
+        "thumbnail": {
+          "path": "assets/themes-1.9.3/thumbnails/labor-night.jpg",
+          "bytes": 34951,
+          "sha256": "047f5dbf3d65b79fe589e773237616ad17a05da16d9c226407ea0b1de4fa90a8"
+        }
+      }
+    },
+    {
+      "id": "dragon",
+      "name": "端午",
+      "category": "festival_and_observance",
+      "category_name": "节日与纪念日",
+      "day": {
+        "image": {
+          "path": "assets/themes-1.9.3/full/dragon-day.png",
+          "bytes": 833825,
+          "sha256": "a2c6902f09b5c352c5618c18f401b03fe2529270e75243ab11e896e8ca28df36"
+        },
+        "thumbnail": {
+          "path": "assets/themes-1.9.3/thumbnails/dragon-day.jpg",
+          "bytes": 34690,
+          "sha256": "0ebb4d81f6f556b83cb3faf4a89863e1fba675964fc0d2ed69657a8e3a92df7b"
+        }
+      },
+      "night": {
+        "image": {
+          "path": "assets/themes-1.9.3/full/dragon-night.png",
+          "bytes": 833796,
+          "sha256": "8a62153c140cc20b8e889fac0ce0b6817da3a7f4e0b31a2875371bb17e9652a9"
+        },
+        "thumbnail": {
+          "path": "assets/themes-1.9.3/thumbnails/dragon-night.jpg",
+          "bytes": 35162,
+          "sha256": "5088ed0eab202ca8fd8656e33d256aab5570c91f52544a19a7d44972ef809274"
+        }
+      }
+    },
+    {
+      "id": "qixi",
+      "name": "七夕",
+      "category": "festival_and_observance",
+      "category_name": "节日与纪念日",
+      "day": {
+        "image": {
+          "path": "assets/themes-1.9.3/full/qixi-day.png",
+          "bytes": 850000,
+          "sha256": "f14017df3f27e16aab5224b64d0a0a3df6a90cce84cd45aca3a0b99d38ba5616"
+        },
+        "thumbnail": {
+          "path": "assets/themes-1.9.3/thumbnails/qixi-day.jpg",
+          "bytes": 34471,
+          "sha256": "fee6da9f921dfa0bf0e61b974ea30882725a104b1d45e3024e1c8cfcdfa833c9"
+        }
+      },
+      "night": {
+        "image": {
+          "path": "assets/themes-1.9.3/full/qixi-night.png",
+          "bytes": 842591,
+          "sha256": "5ed455e35210425dd7dae7ddd4f655c27e47e7afea4ac22d70c37c2e30c2e596"
+        },
+        "thumbnail": {
+          "path": "assets/themes-1.9.3/thumbnails/qixi-night.jpg",
+          "bytes": 35044,
+          "sha256": "db2d3f4a32cb40a64c938108b0fcdd7058c1355ed423028b9f001b3033d4e308"
+        }
+      }
+    },
+    {
+      "id": "moon",
+      "name": "中秋",
+      "category": "festival_and_observance",
+      "category_name": "节日与纪念日",
+      "day": {
+        "image": {
+          "path": "assets/themes-1.9.3/full/moon-day.png",
+          "bytes": 708616,
+          "sha256": "975249d1863cb5c6d808d3bf380ba1d8ba0311e036f987b55c1d39a0ffac400a"
+        },
+        "thumbnail": {
+          "path": "assets/themes-1.9.3/thumbnails/moon-day.jpg",
+          "bytes": 34148,
+          "sha256": "668959ca26c64a2091fc55c475aa1ec547092402d87d0ce0206881dd495dfaf2"
+        }
+      },
+      "night": {
+        "image": {
+          "path": "assets/themes-1.9.3/full/moon-night.png",
+          "bytes": 717464,
+          "sha256": "92d1ac95e74dbf407a103235a246784a7e2409a2ee2046488848c7b45d556d97"
+        },
+        "thumbnail": {
+          "path": "assets/themes-1.9.3/thumbnails/moon-night.jpg",
+          "bytes": 34741,
+          "sha256": "a7973d047e5318c090f7add101b5f7e0bcf1156ce995db12fd7a933763336048"
+        }
+      }
+    },
+    {
+      "id": "national",
+      "name": "国庆",
+      "category": "festival_and_observance",
+      "category_name": "节日与纪念日",
+      "day": {
+        "image": {
+          "path": "assets/themes-1.9.3/full/national-day.png",
+          "bytes": 787344,
+          "sha256": "03975ca4b2ec2b23ace290c964ceb1307406c15c1f8a5e7191c18869bb969aaf"
+        },
+        "thumbnail": {
+          "path": "assets/themes-1.9.3/thumbnails/national-day.jpg",
+          "bytes": 34737,
+          "sha256": "831309bd41e536c91fd8e171c16629ae59ddef2a084318c1fef05ccfc88fb293"
+        }
+      },
+      "night": {
+        "image": {
+          "path": "assets/themes-1.9.3/full/national-night.png",
+          "bytes": 784300,
+          "sha256": "8a62aa4e6374e7ff3cf1b1ef487e62f7db2a0deb5162c0afc1a6905bb5d8def6"
+        },
+        "thumbnail": {
+          "path": "assets/themes-1.9.3/thumbnails/national-night.jpg",
+          "bytes": 35247,
+          "sha256": "f47c6c38bef3412c38070ca766d94d1d576cb7490493e726075af3ae74b54ec0"
+        }
+      }
+    },
+    {
+      "id": "double",
+      "name": "重阳",
+      "category": "festival_and_observance",
+      "category_name": "节日与纪念日",
+      "day": {
+        "image": {
+          "path": "assets/themes-1.9.3/full/double-day.png",
+          "bytes": 771798,
+          "sha256": "4dcb013496bcd478c86bff50527c8ebb5e7c445e4f25b33bed193c8241b4ecc2"
+        },
+        "thumbnail": {
+          "path": "assets/themes-1.9.3/thumbnails/double-day.jpg",
+          "bytes": 34728,
+          "sha256": "74a50b0508a20acd6fe3a65d1f11c34dfc6626b78713b907d93603a15c3689a9"
+        }
+      },
+      "night": {
+        "image": {
+          "path": "assets/themes-1.9.3/full/double-night.png",
+          "bytes": 783924,
+          "sha256": "05acc3dbfafe4f7ec2ffe57cd4abc9567bc07568571faf359762cc2c735129ae"
+        },
+        "thumbnail": {
+          "path": "assets/themes-1.9.3/thumbnails/double-night.jpg",
+          "bytes": 35338,
+          "sha256": "60b599a18787598069791cbed901ad9742dfa94a7ebf75abf7d7468165b62bb2"
+        }
+      }
+    },
+    {
+      "id": "laba",
+      "name": "腊八",
+      "category": "festival_and_observance",
+      "category_name": "节日与纪念日",
+      "day": {
+        "image": {
+          "path": "assets/themes-1.9.3/full/laba-day.png",
+          "bytes": 770874,
+          "sha256": "6e1d29351d88b6c33d79194951e2166f7ba888fd5b2fc202a09cb3f08ba941ad"
+        },
+        "thumbnail": {
+          "path": "assets/themes-1.9.3/thumbnails/laba-day.jpg",
+          "bytes": 34498,
+          "sha256": "dfe8c0c3c05fe4d83ed05e4fe5a4523365055083db527d505c8c1955253ff865"
+        }
+      },
+      "night": {
+        "image": {
+          "path": "assets/themes-1.9.3/full/laba-night.png",
+          "bytes": 777919,
+          "sha256": "b553f483091f1deaeb877efc05589c6cd05b7d04939d90ebddd729b4208fe0be"
+        },
+        "thumbnail": {
+          "path": "assets/themes-1.9.3/thumbnails/laba-night.jpg",
+          "bytes": 35070,
+          "sha256": "8c64dceb8a1aee35a6f0a516bc4bbf16c1bb81adaceb89eedd795314c1862b0d"
+        }
+      }
+    },
+    {
+      "id": "small",
+      "name": "小年",
+      "category": "festival_and_observance",
+      "category_name": "节日与纪念日",
+      "day": {
+        "image": {
+          "path": "assets/themes-1.9.3/full/small-day.png",
+          "bytes": 740095,
+          "sha256": "7f150824155446a5f2c388dc61b0a102785d17895fc1dd5dbe391be9c8ca7d35"
+        },
+        "thumbnail": {
+          "path": "assets/themes-1.9.3/thumbnails/small-day.jpg",
+          "bytes": 34733,
+          "sha256": "30ec21a09152f47a32493f1c296636ed437f2f5ea711f8c628494d13b0b99cb3"
+        }
+      },
+      "night": {
+        "image": {
+          "path": "assets/themes-1.9.3/full/small-night.png",
+          "bytes": 750852,
+          "sha256": "5ca485b56a1095140711de089c6eec7836645487da51a3d82a6f55a47bf23681"
+        },
+        "thumbnail": {
+          "path": "assets/themes-1.9.3/thumbnails/small-night.jpg",
+          "bytes": 35332,
+          "sha256": "23999deeb4a6a6e2c195c1892a53c9fe7b9ebadd12c618c238e27b78747322b6"
+        }
+      }
+    },
+    {
+      "id": "mother",
+      "name": "母亲节",
+      "category": "festival_and_observance",
+      "category_name": "节日与纪念日",
+      "day": {
+        "image": {
+          "path": "assets/themes-1.9.3/full/mother-day.png",
+          "bytes": 792057,
+          "sha256": "4421dcaf1560779dd41c2e42bfd4bfa86cfddce4e9e4408d0b3d86c30922030a"
+        },
+        "thumbnail": {
+          "path": "assets/themes-1.9.3/thumbnails/mother-day.jpg",
+          "bytes": 34550,
+          "sha256": "c2fa5ed48c59f67ee53b20fd7535338f042741ada7423709e117fa8e6d27af21"
+        }
+      },
+      "night": {
+        "image": {
+          "path": "assets/themes-1.9.3/full/mother-night.png",
+          "bytes": 796811,
+          "sha256": "0f0d63f1be8443d04668b27f43349c649cf1b9c75b27d529b6ec3701e32204a7"
+        },
+        "thumbnail": {
+          "path": "assets/themes-1.9.3/thumbnails/mother-night.jpg",
+          "bytes": 35124,
+          "sha256": "514a112897c604cd0d0df75c07a97ffe78ade9179ec99ec010eef54d9b68646c"
+        }
+      }
+    },
+    {
+      "id": "father",
+      "name": "父亲节",
+      "category": "festival_and_observance",
+      "category_name": "节日与纪念日",
+      "day": {
+        "image": {
+          "path": "assets/themes-1.9.3/full/father-day.png",
+          "bytes": 815833,
+          "sha256": "1412c534a47ab8f60d8fb2f1b2b6e5964f1b8320331a259c2d10da8b49531656"
+        },
+        "thumbnail": {
+          "path": "assets/themes-1.9.3/thumbnails/father-day.jpg",
+          "bytes": 33967,
+          "sha256": "ca945dd5d77609265e88c8bd963e34e7d44292c1062c495529b0f4e5d561b4e1"
+        }
+      },
+      "night": {
+        "image": {
+          "path": "assets/themes-1.9.3/full/father-night.png",
+          "bytes": 821743,
+          "sha256": "75415be50b5e06bb2941e327138729b3f5ba0ee0b16cea9f126610a16d2da4ba"
+        },
+        "thumbnail": {
+          "path": "assets/themes-1.9.3/thumbnails/father-night.jpg",
+          "bytes": 34674,
+          "sha256": "97121419380a2d92637d75c6d290860f057942fb9980b3f401494ba755390f1d"
+        }
+      }
+    },
+    {
+      "id": "women",
+      "name": "妇女节",
+      "category": "festival_and_observance",
+      "category_name": "节日与纪念日",
+      "day": {
+        "image": {
+          "path": "assets/themes-1.9.3/full/women-day.png",
+          "bytes": 861774,
+          "sha256": "d8d2b9e7279ebc47ec8947ab16cc58a1b076aa9192b6c08b17f9c99acbffd9d5"
+        },
+        "thumbnail": {
+          "path": "assets/themes-1.9.3/thumbnails/women-day.jpg",
+          "bytes": 35144,
+          "sha256": "f512190bfa2274f18b135eb0df1830882b940e871561548d41d8d236d379a64b"
+        }
+      },
+      "night": {
+        "image": {
+          "path": "assets/themes-1.9.3/full/women-night.png",
+          "bytes": 861337,
+          "sha256": "0cc84aab541e0ffb5dc5ae0a78d074759ce836aa49470e37b719a6d83433686a"
+        },
+        "thumbnail": {
+          "path": "assets/themes-1.9.3/thumbnails/women-night.jpg",
+          "bytes": 35747,
+          "sha256": "8501b31481706743cd7c91e95acf1e141e5b97403f9a671b7df81a3d258dd5ef"
+        }
+      }
+    },
+    {
+      "id": "youth",
+      "name": "青年节",
+      "category": "festival_and_observance",
+      "category_name": "节日与纪念日",
+      "day": {
+        "image": {
+          "path": "assets/themes-1.9.3/full/youth-day.png",
+          "bytes": 735971,
+          "sha256": "ee4a5b1238a7505cb2162c94fbcae91179d4ccc7c7d9da0d70555f4cee30e956"
+        },
+        "thumbnail": {
+          "path": "assets/themes-1.9.3/thumbnails/youth-day.jpg",
+          "bytes": 34360,
+          "sha256": "7b084759c648f442f818cad6cce7d55a06c3cd13802bedee05d80950c974adb8"
+        }
+      },
+      "night": {
+        "image": {
+          "path": "assets/themes-1.9.3/full/youth-night.png",
+          "bytes": 745531,
+          "sha256": "bfaf444d3f3038c0c65e2da0d511274602b06606193428ab25c6e56e6be2cab8"
+        },
+        "thumbnail": {
+          "path": "assets/themes-1.9.3/thumbnails/youth-night.jpg",
+          "bytes": 34949,
+          "sha256": "ddd9cb5985500bf6f3d78883434cefabaa4ccb3170cfc2898c1b19cb0acc9b0d"
+        }
+      }
+    },
+    {
+      "id": "taiwan-retrocession",
+      "name": "台湾光复纪念日",
+      "category": "festival_and_observance",
+      "category_name": "节日与纪念日",
+      "day": {
+        "image": {
+          "path": "assets/themes-1.9.3/full/taiwan-retrocession-day.png",
+          "bytes": 815408,
+          "sha256": "aaa63c78faae943189fabcf992fa7d237f9754df4785ef79e9a145eeea081edb"
+        },
+        "thumbnail": {
+          "path": "assets/themes-1.9.3/thumbnails/taiwan-retrocession-day.jpg",
+          "bytes": 34387,
+          "sha256": "3438d3df189d28c2a87555f4523102b959b803c0f1dc7b853bfb820353fca4e0"
+        }
+      },
+      "night": {
+        "image": {
+          "path": "assets/themes-1.9.3/full/taiwan-retrocession-night.png",
+          "bytes": 817072,
+          "sha256": "a4b1b8562ed070457ad2f0c7229eb5f2db20732d0fea85d7d1f3271b6d7bf1f1"
+        },
+        "thumbnail": {
+          "path": "assets/themes-1.9.3/thumbnails/taiwan-retrocession-night.jpg",
+          "bytes": 35016,
+          "sha256": "4cb29ffe0db0c1236b416122a1bf4ae0c294782899a10fc9457ec9e59f63d09b"
+        }
+      }
+    },
+    {
+      "id": "term-xiaohan",
+      "name": "小寒",
+      "category": "solar_term",
+      "category_name": "二十四节气",
+      "day": {
+        "image": {
+          "path": "assets/themes-1.9.3/full/term-xiaohan-day.png",
+          "bytes": 627878,
+          "sha256": "b9ffb1ee81941f170ff12eca88e89f859009e98f410db75c7ab62def1850b3ab"
+        },
+        "thumbnail": {
+          "path": "assets/themes-1.9.3/thumbnails/term-xiaohan-day.jpg",
+          "bytes": 33743,
+          "sha256": "bca16628ca53d87586ff57c1b2ce9a15eabc15300e1763d1acaebfbd291a1cc3"
+        }
+      },
+      "night": {
+        "image": {
+          "path": "assets/themes-1.9.3/full/term-xiaohan-night.png",
+          "bytes": 632677,
+          "sha256": "9991b2798b773a3da9e62d066736f4143b491ed0e2ffe063a5e9bf15c064a1e8"
+        },
+        "thumbnail": {
+          "path": "assets/themes-1.9.3/thumbnails/term-xiaohan-night.jpg",
+          "bytes": 34417,
+          "sha256": "ed40e51fdcf72c8935901224058618f47fcdbd83a37164e1f4d755ed33edcd25"
+        }
+      }
+    },
+    {
+      "id": "term-dahan",
+      "name": "大寒",
+      "category": "solar_term",
+      "category_name": "二十四节气",
+      "day": {
+        "image": {
+          "path": "assets/themes-1.9.3/full/term-dahan-day.png",
+          "bytes": 634446,
+          "sha256": "4d496c6ceb9eccfadc78ac5f584d6cdd687769a5541261b7f2c912b3c9d94d1b"
+        },
+        "thumbnail": {
+          "path": "assets/themes-1.9.3/thumbnails/term-dahan-day.jpg",
+          "bytes": 33840,
+          "sha256": "223e5fb56680e38948a997e2859cb4bafbd2701674c3715452b9c82325302e86"
+        }
+      },
+      "night": {
+        "image": {
+          "path": "assets/themes-1.9.3/full/term-dahan-night.png",
+          "bytes": 641968,
+          "sha256": "e73c0342348135a86bd6fe9f788e618073550dc3f92476755be2a6627b505c1e"
+        },
+        "thumbnail": {
+          "path": "assets/themes-1.9.3/thumbnails/term-dahan-night.jpg",
+          "bytes": 34561,
+          "sha256": "08cd5af321dfb1d9aba73ae3674802d6433b6bbd9ff02154d8832e55d5bcdc18"
+        }
+      }
+    },
+    {
+      "id": "term-lichun",
+      "name": "立春",
+      "category": "solar_term",
+      "category_name": "二十四节气",
+      "day": {
+        "image": {
+          "path": "assets/themes-1.9.3/full/term-lichun-day.png",
+          "bytes": 581454,
+          "sha256": "1de1e086b382c5a137c7544047897badb3d820fee60f2c480585b20f83462be0"
+        },
+        "thumbnail": {
+          "path": "assets/themes-1.9.3/thumbnails/term-lichun-day.jpg",
+          "bytes": 33148,
+          "sha256": "b62cecfdbeaf30ae910e8313bc07e0cb3fa71a6f0ecf37b2571cbd789f4fba8c"
+        }
+      },
+      "night": {
+        "image": {
+          "path": "assets/themes-1.9.3/full/term-lichun-night.png",
+          "bytes": 582259,
+          "sha256": "f50486cf7d8fe5d987a26c84a0cbd75f829dadea5c6d1f61da4b2036dd3b3595"
+        },
+        "thumbnail": {
+          "path": "assets/themes-1.9.3/thumbnails/term-lichun-night.jpg",
+          "bytes": 33923,
+          "sha256": "98dc232691895f89c6eb141571b1cb5139ce6093c6beff8d8f23b53ce28a2bb7"
+        }
+      }
+    },
+    {
+      "id": "term-yushui",
+      "name": "雨水",
+      "category": "solar_term",
+      "category_name": "二十四节气",
+      "day": {
+        "image": {
+          "path": "assets/themes-1.9.3/full/term-yushui-day.png",
+          "bytes": 615346,
+          "sha256": "e37b29e0e78feb390c90ac0646d9072cd35be7d9079c56fdb4eea8bde79e436d"
+        },
+        "thumbnail": {
+          "path": "assets/themes-1.9.3/thumbnails/term-yushui-day.jpg",
+          "bytes": 33438,
+          "sha256": "4962658a85e1f99071074ae8c6e75ff8271bbea1da70e1ee1d0fd683463aeaa0"
+        }
+      },
+      "night": {
+        "image": {
+          "path": "assets/themes-1.9.3/full/term-yushui-night.png",
+          "bytes": 615407,
+          "sha256": "daaef1ccfe625631b3140649219cf1283ffa1b5766c51b1265e783cdb541e5ca"
+        },
+        "thumbnail": {
+          "path": "assets/themes-1.9.3/thumbnails/term-yushui-night.jpg",
+          "bytes": 34194,
+          "sha256": "d4e16af944285ff9b878e5312c437e2a9c75918372f3589c33f74d22d805612d"
+        }
+      }
+    },
+    {
+      "id": "term-jingzhe",
+      "name": "惊蛰",
+      "category": "solar_term",
+      "category_name": "二十四节气",
+      "day": {
+        "image": {
+          "path": "assets/themes-1.9.3/full/term-jingzhe-day.png",
+          "bytes": 589816,
+          "sha256": "f454a336a7c7688307bd0428626512967fc48f9f0d1a5d44b5885f846d9305c4"
+        },
+        "thumbnail": {
+          "path": "assets/themes-1.9.3/thumbnails/term-jingzhe-day.jpg",
+          "bytes": 33225,
+          "sha256": "d3e389b6e5ee9719ed78d0561496c031e8b2ea0c54f6cab8fb49143fdc397597"
+        }
+      },
+      "night": {
+        "image": {
+          "path": "assets/themes-1.9.3/full/term-jingzhe-night.png",
+          "bytes": 592475,
+          "sha256": "b4d6907859d0ed30d3ebe592df246c852710bcdb46223cac5ccb563a79773957"
+        },
+        "thumbnail": {
+          "path": "assets/themes-1.9.3/thumbnails/term-jingzhe-night.jpg",
+          "bytes": 34008,
+          "sha256": "4d7f2b9a245151c836452408cfa189081b1d332b6762bd1ddb9ea380fce6e10e"
+        }
+      }
+    },
+    {
+      "id": "term-chunfen",
+      "name": "春分",
+      "category": "solar_term",
+      "category_name": "二十四节气",
+      "day": {
+        "image": {
+          "path": "assets/themes-1.9.3/full/term-chunfen-day.png",
+          "bytes": 599489,
+          "sha256": "17a7759e4b3c5c39182022d6010dfbb3ed64b8b5c1e747c6e6139ce9d35d28b1"
+        },
+        "thumbnail": {
+          "path": "assets/themes-1.9.3/thumbnails/term-chunfen-day.jpg",
+          "bytes": 33505,
+          "sha256": "b34fa325c3f2966e28400d6d2b19c5ecb6ee66f46765dd38eefe8f8c50436164"
+        }
+      },
+      "night": {
+        "image": {
+          "path": "assets/themes-1.9.3/full/term-chunfen-night.png",
+          "bytes": 604444,
+          "sha256": "45c70e3db0bbfe49974e41a71028bb2536d9f7b1fd5113bba13db4386692d3c3"
+        },
+        "thumbnail": {
+          "path": "assets/themes-1.9.3/thumbnails/term-chunfen-night.jpg",
+          "bytes": 34253,
+          "sha256": "276d87391bd8360b210d0d8c9c56aa5861d5c17f1b813354ca27ed9e074c49de"
+        }
+      }
+    },
+    {
+      "id": "term-qingming",
+      "name": "清明",
+      "category": "solar_term",
+      "category_name": "二十四节气",
+      "day": {
+        "image": {
+          "path": "assets/themes-1.9.3/full/term-qingming-day.png",
+          "bytes": 548891,
+          "sha256": "d8467d41644d87aa4d9da42101712311b34e486f598d393de3a2ce203301c049"
+        },
+        "thumbnail": {
+          "path": "assets/themes-1.9.3/thumbnails/term-qingming-day.jpg",
+          "bytes": 33544,
+          "sha256": "3eb0b6162ea37fbca23cbe66b5b039a2e255e66f763351188d5c3a66bf51236e"
+        }
+      },
+      "night": {
+        "image": {
+          "path": "assets/themes-1.9.3/full/term-qingming-night.png",
+          "bytes": 536996,
+          "sha256": "ba28e09a1c5f7c5e1b7eda89dbbd04b71f30ce4c2b6ca96707591a20307c683b"
+        },
+        "thumbnail": {
+          "path": "assets/themes-1.9.3/thumbnails/term-qingming-night.jpg",
+          "bytes": 34313,
+          "sha256": "2e50a7e0a4ec538073d542d5d54b682cf8562e7e4a03e58f0a9e4b892c0119ae"
+        }
+      }
+    },
+    {
+      "id": "term-guyu",
+      "name": "谷雨",
+      "category": "solar_term",
+      "category_name": "二十四节气",
+      "day": {
+        "image": {
+          "path": "assets/themes-1.9.3/full/term-guyu-day.png",
+          "bytes": 602015,
+          "sha256": "eb6753a52d9831c25fce5039331ea13c21051a7375db0ac925e3cefd18942fab"
+        },
+        "thumbnail": {
+          "path": "assets/themes-1.9.3/thumbnails/term-guyu-day.jpg",
+          "bytes": 33805,
+          "sha256": "3a7251c57eac708b7e1ed26fd418b87f1c2692856a349034ad5b26a28f481384"
+        }
+      },
+      "night": {
+        "image": {
+          "path": "assets/themes-1.9.3/full/term-guyu-night.png",
+          "bytes": 607896,
+          "sha256": "a2975118787e38d2b1190889d8f58b3b4be9d0d471620be7d401ac7f6b0a8320"
+        },
+        "thumbnail": {
+          "path": "assets/themes-1.9.3/thumbnails/term-guyu-night.jpg",
+          "bytes": 34543,
+          "sha256": "e24845e8345c60ae3f9e43b9c087ec1612e8cfc574550e5a46e637d241db1ba5"
+        }
+      }
+    },
+    {
+      "id": "term-lixia",
+      "name": "立夏",
+      "category": "solar_term",
+      "category_name": "二十四节气",
+      "day": {
+        "image": {
+          "path": "assets/themes-1.9.3/full/term-lixia-day.png",
+          "bytes": 613003,
+          "sha256": "77cd83059a71d2f78f51a7fc6bcf06067882a2f7c32e22577642c964b467ef4b"
+        },
+        "thumbnail": {
+          "path": "assets/themes-1.9.3/thumbnails/term-lixia-day.jpg",
+          "bytes": 33963,
+          "sha256": "a44d07c5f0af9cf2a89745631fbf59d69f21269730da8e9a037a6114cf1b6bf9"
+        }
+      },
+      "night": {
+        "image": {
+          "path": "assets/themes-1.9.3/full/term-lixia-night.png",
+          "bytes": 612686,
+          "sha256": "38dd9fc60b70d15cb0e418eb0b050dc669b50e213f199725e9b905775ffa4af7"
+        },
+        "thumbnail": {
+          "path": "assets/themes-1.9.3/thumbnails/term-lixia-night.jpg",
+          "bytes": 34695,
+          "sha256": "93b601f76118d1a0f365d17b63a3426b0ca06af5a7438c4760ba56e3360a2ea0"
+        }
+      }
+    },
+    {
+      "id": "term-xiaoman",
+      "name": "小满",
+      "category": "solar_term",
+      "category_name": "二十四节气",
+      "day": {
+        "image": {
+          "path": "assets/themes-1.9.3/full/term-xiaoman-day.png",
+          "bytes": 652284,
+          "sha256": "1d23be2348ced59d9e18ccf2cb7c8cba39b8a5c0434a9ac2620a1f03fc5c0ff9"
+        },
+        "thumbnail": {
+          "path": "assets/themes-1.9.3/thumbnails/term-xiaoman-day.jpg",
+          "bytes": 33843,
+          "sha256": "8d13378fb2ca535f30338f9d28baddc5b4b48ffe6c90a09d570ab7e98e6605b1"
+        }
+      },
+      "night": {
+        "image": {
+          "path": "assets/themes-1.9.3/full/term-xiaoman-night.png",
+          "bytes": 649251,
+          "sha256": "fe83943f8011ba46bc3b59315993706121dfe03f1842d4ecc20940bba8194420"
+        },
+        "thumbnail": {
+          "path": "assets/themes-1.9.3/thumbnails/term-xiaoman-night.jpg",
+          "bytes": 34561,
+          "sha256": "cf2a939163db159c1f3bf03f89ce4a40e0ba39e54e45549b38d6ac02e63d4daa"
+        }
+      }
+    },
+    {
+      "id": "term-mangzhong",
+      "name": "芒种",
+      "category": "solar_term",
+      "category_name": "二十四节气",
+      "day": {
+        "image": {
+          "path": "assets/themes-1.9.3/full/term-mangzhong-day.png",
+          "bytes": 611607,
+          "sha256": "d0dd3e3d12ae4c4a8145da82077377f83391cd0c69d39b6ddd47b26c529dfa91"
+        },
+        "thumbnail": {
+          "path": "assets/themes-1.9.3/thumbnails/term-mangzhong-day.jpg",
+          "bytes": 33714,
+          "sha256": "82403d63fecf7d99289fdeca0c92b3e294c2b3d032a37802f4f54cccb4baf65a"
+        }
+      },
+      "night": {
+        "image": {
+          "path": "assets/themes-1.9.3/full/term-mangzhong-night.png",
+          "bytes": 628832,
+          "sha256": "e7837d4d7b047e15b1cd33ff3df1e32f6f8fcbc0220b10256693427615185bb3"
+        },
+        "thumbnail": {
+          "path": "assets/themes-1.9.3/thumbnails/term-mangzhong-night.jpg",
+          "bytes": 34449,
+          "sha256": "a24f30b66a2d55f6bc7ca1b31d3fe7326cfc0148b3eb4f010863eda23455dcf4"
+        }
+      }
+    },
+    {
+      "id": "term-xiazhi",
+      "name": "夏至",
+      "category": "solar_term",
+      "category_name": "二十四节气",
+      "day": {
+        "image": {
+          "path": "assets/themes-1.9.3/full/term-xiazhi-day.png",
+          "bytes": 495779,
+          "sha256": "783e660e8ef152182b75930c1e074d0ee0f683802006f31ba694059236f438a6"
+        },
+        "thumbnail": {
+          "path": "assets/themes-1.9.3/thumbnails/term-xiazhi-day.jpg",
+          "bytes": 33204,
+          "sha256": "c459ba2269a0ae5a10fb8c59100a165dcb1a6e94d0e9518d77b730269608a69b"
+        }
+      },
+      "night": {
+        "image": {
+          "path": "assets/themes-1.9.3/full/term-xiazhi-night.png",
+          "bytes": 502220,
+          "sha256": "1315a9a3baeb58b16a2f8f673844ee376283755190d9a9d083245a8c4309e8ca"
+        },
+        "thumbnail": {
+          "path": "assets/themes-1.9.3/thumbnails/term-xiazhi-night.jpg",
+          "bytes": 33987,
+          "sha256": "51edf1cd632d5c77d5e63ac18fae965812eafeccf6d6045a8d91430e94ca5447"
+        }
+      }
+    },
+    {
+      "id": "term-xiaoshu",
+      "name": "小暑",
+      "category": "solar_term",
+      "category_name": "二十四节气",
+      "day": {
+        "image": {
+          "path": "assets/themes-1.9.3/full/term-xiaoshu-day.png",
+          "bytes": 501638,
+          "sha256": "441c8e51f03177f268fd2a6331c9767bcf08f4801805ab579f2aff65bea2f15d"
+        },
+        "thumbnail": {
+          "path": "assets/themes-1.9.3/thumbnails/term-xiaoshu-day.jpg",
+          "bytes": 33305,
+          "sha256": "c08fc4a1242c7e4f534497663a439a860e2ea950203b95b01caeb225dd279ff5"
+        }
+      },
+      "night": {
+        "image": {
+          "path": "assets/themes-1.9.3/full/term-xiaoshu-night.png",
+          "bytes": 503582,
+          "sha256": "c07883ae6839f194b81b8388aaabace4b37866a254937586d1741f2e0e14f24c"
+        },
+        "thumbnail": {
+          "path": "assets/themes-1.9.3/thumbnails/term-xiaoshu-night.jpg",
+          "bytes": 34104,
+          "sha256": "a390fe48ef0eb6a8b7023d848dc5029875f628865c263eae2469012667852bba"
+        }
+      }
+    },
+    {
+      "id": "term-dashu",
+      "name": "大暑",
+      "category": "solar_term",
+      "category_name": "二十四节气",
+      "day": {
+        "image": {
+          "path": "assets/themes-1.9.3/full/term-dashu-day.png",
+          "bytes": 495990,
+          "sha256": "b9d17f68e04a94cf2395044a815c7a266f16c49e9202e2b1b85211bead259bf6"
+        },
+        "thumbnail": {
+          "path": "assets/themes-1.9.3/thumbnails/term-dashu-day.jpg",
+          "bytes": 33185,
+          "sha256": "ccaab03bfd6e0b71667e247065794fc55aa03887e73817e1b471daebcc6dc9c4"
+        }
+      },
+      "night": {
+        "image": {
+          "path": "assets/themes-1.9.3/full/term-dashu-night.png",
+          "bytes": 493683,
+          "sha256": "5e9ce83b2102e824871dbf5d465439e92470ff6b67f3808425454f6c165cf321"
+        },
+        "thumbnail": {
+          "path": "assets/themes-1.9.3/thumbnails/term-dashu-night.jpg",
+          "bytes": 33948,
+          "sha256": "c90b3958fa530bea019b6480d33ffae6347eef0c323ed01f155baae630606722"
+        }
+      }
+    },
+    {
+      "id": "term-liqiu",
+      "name": "立秋",
+      "category": "solar_term",
+      "category_name": "二十四节气",
+      "day": {
+        "image": {
+          "path": "assets/themes-1.9.3/full/term-liqiu-day.png",
+          "bytes": 565688,
+          "sha256": "a2cdff99483376bdc5a220bbf5e05f95dd8cecfcd602c87330978a86b571c236"
+        },
+        "thumbnail": {
+          "path": "assets/themes-1.9.3/thumbnails/term-liqiu-day.jpg",
+          "bytes": 33579,
+          "sha256": "3c914ae13044bd28f61c12259ed3111a337151859c08536ca3303b11059cc7a8"
+        }
+      },
+      "night": {
+        "image": {
+          "path": "assets/themes-1.9.3/full/term-liqiu-night.png",
+          "bytes": 578977,
+          "sha256": "58d3417c6a95c0247ba4390b1813bc0a16370afc9412c4c1734c84cf7b813a45"
+        },
+        "thumbnail": {
+          "path": "assets/themes-1.9.3/thumbnails/term-liqiu-night.jpg",
+          "bytes": 34299,
+          "sha256": "7f5280b620d8449c74d418b071c68c78c22f39fc13d9a44a366cad7524a868dc"
+        }
+      }
+    },
+    {
+      "id": "term-chushu",
+      "name": "处暑",
+      "category": "solar_term",
+      "category_name": "二十四节气",
+      "day": {
+        "image": {
+          "path": "assets/themes-1.9.3/full/term-chushu-day.png",
+          "bytes": 600396,
+          "sha256": "866bd41561c8336ab93e7147e63bc2a57f23f40bfb3c68dc350629fb5a340191"
+        },
+        "thumbnail": {
+          "path": "assets/themes-1.9.3/thumbnails/term-chushu-day.jpg",
+          "bytes": 33581,
+          "sha256": "e03abc0d7b34d6f50b28b74289a17221922bc6f018c54d48dbfd50f31e3240df"
+        }
+      },
+      "night": {
+        "image": {
+          "path": "assets/themes-1.9.3/full/term-chushu-night.png",
+          "bytes": 603279,
+          "sha256": "d680348397fa22ec8e35267b855102941fb9d09356c1317f5dc8309697d6f216"
+        },
+        "thumbnail": {
+          "path": "assets/themes-1.9.3/thumbnails/term-chushu-night.jpg",
+          "bytes": 34354,
+          "sha256": "84c9db3dbc9712c8fb72a6385babb55cf36c56e07c06e87fb80b89162e794e74"
+        }
+      }
+    },
+    {
+      "id": "term-bailu",
+      "name": "白露",
+      "category": "solar_term",
+      "category_name": "二十四节气",
+      "day": {
+        "image": {
+          "path": "assets/themes-1.9.3/full/term-bailu-day.png",
+          "bytes": 630006,
+          "sha256": "0e3ce3fb2d79d497e7bc1eaeced23ffcf99362973ea5b8fe0ba9fb9a2befb282"
+        },
+        "thumbnail": {
+          "path": "assets/themes-1.9.3/thumbnails/term-bailu-day.jpg",
+          "bytes": 33694,
+          "sha256": "9393212b23dc33ab46a334e96933afd857219ccbecc35a05b12a04121c324ea9"
+        }
+      },
+      "night": {
+        "image": {
+          "path": "assets/themes-1.9.3/full/term-bailu-night.png",
+          "bytes": 636744,
+          "sha256": "de6ca8b90439c41a98a91c6e15d415fed9a433d7776a195bfaea3ad028004c18"
+        },
+        "thumbnail": {
+          "path": "assets/themes-1.9.3/thumbnails/term-bailu-night.jpg",
+          "bytes": 34429,
+          "sha256": "38246eb984b7d8997844f0c9ffdcd3cb792886907c523b6a84f79ca0c50c923d"
+        }
+      }
+    },
+    {
+      "id": "term-qiufen",
+      "name": "秋分",
+      "category": "solar_term",
+      "category_name": "二十四节气",
+      "day": {
+        "image": {
+          "path": "assets/themes-1.9.3/full/term-qiufen-day.png",
+          "bytes": 616129,
+          "sha256": "11778b85ba52c8e995b1c80e7ab546a9d51ad5ebd4deea3819d92a2260147f2c"
+        },
+        "thumbnail": {
+          "path": "assets/themes-1.9.3/thumbnails/term-qiufen-day.jpg",
+          "bytes": 33858,
+          "sha256": "b161c7d6517a153d9f0035cae3271b785e086bb5a4839e105010288c0e51dcdd"
+        }
+      },
+      "night": {
+        "image": {
+          "path": "assets/themes-1.9.3/full/term-qiufen-night.png",
+          "bytes": 623512,
+          "sha256": "e37129f6e47fd25032a027d020894b17ebdd31210948f7c6017a12a624646f2f"
+        },
+        "thumbnail": {
+          "path": "assets/themes-1.9.3/thumbnails/term-qiufen-night.jpg",
+          "bytes": 34582,
+          "sha256": "5b55a1164bcb695e909e7c8ffe10b9778993398f8fd476a039f99e83c9f3bbee"
+        }
+      }
+    },
+    {
+      "id": "term-hanlu",
+      "name": "寒露",
+      "category": "solar_term",
+      "category_name": "二十四节气",
+      "day": {
+        "image": {
+          "path": "assets/themes-1.9.3/full/term-hanlu-day.png",
+          "bytes": 630222,
+          "sha256": "ae7af54f67cfbc40955c65936138bfdf60638810971eaf4735f2c40f566400a8"
+        },
+        "thumbnail": {
+          "path": "assets/themes-1.9.3/thumbnails/term-hanlu-day.jpg",
+          "bytes": 33955,
+          "sha256": "57659254007c01bc70d4d39a0f900865380658c4c5efcf136291b111230da0c5"
+        }
+      },
+      "night": {
+        "image": {
+          "path": "assets/themes-1.9.3/full/term-hanlu-night.png",
+          "bytes": 633242,
+          "sha256": "8dafa5981036d3ad16d7d03fd5dec167b178a7225551d111da706b584d0880bd"
+        },
+        "thumbnail": {
+          "path": "assets/themes-1.9.3/thumbnails/term-hanlu-night.jpg",
+          "bytes": 34639,
+          "sha256": "9f3878a8bdfa5b4b372e171e82358dee82e40bef8431aee34614c6c983dd1121"
+        }
+      }
+    },
+    {
+      "id": "term-shuangjiang",
+      "name": "霜降",
+      "category": "solar_term",
+      "category_name": "二十四节气",
+      "day": {
+        "image": {
+          "path": "assets/themes-1.9.3/full/term-shuangjiang-day.png",
+          "bytes": 618313,
+          "sha256": "009b144fb1d17fbdb8f311e3628592b7a2df97111c8b5864a48041d5f6441a83"
+        },
+        "thumbnail": {
+          "path": "assets/themes-1.9.3/thumbnails/term-shuangjiang-day.jpg",
+          "bytes": 33819,
+          "sha256": "8a689082c8a1c1599d86b3bb0753ef1151b794b5eb3fbdf2755004772a491d35"
+        }
+      },
+      "night": {
+        "image": {
+          "path": "assets/themes-1.9.3/full/term-shuangjiang-night.png",
+          "bytes": 621337,
+          "sha256": "06717b34bb8b23a4be3175d2c7574b77f01235ea8fdab4d19846960a28f1dd11"
+        },
+        "thumbnail": {
+          "path": "assets/themes-1.9.3/thumbnails/term-shuangjiang-night.jpg",
+          "bytes": 34504,
+          "sha256": "24232edbb0c292c2fd9431862e015a09de3f6f2c3ae4094fcad86c16315f05bd"
+        }
+      }
+    },
+    {
+      "id": "term-lidong",
+      "name": "立冬",
+      "category": "solar_term",
+      "category_name": "二十四节气",
+      "day": {
+        "image": {
+          "path": "assets/themes-1.9.3/full/term-lidong-day.png",
+          "bytes": 644063,
+          "sha256": "f81626facc450126700ab1d7411c9f84de4f915fed5eeecc1652059422565893"
+        },
+        "thumbnail": {
+          "path": "assets/themes-1.9.3/thumbnails/term-lidong-day.jpg",
+          "bytes": 33730,
+          "sha256": "d077d3bc7f9260ded931c7cc393d98768373348bbaa3ecea2033826b0493072b"
+        }
+      },
+      "night": {
+        "image": {
+          "path": "assets/themes-1.9.3/full/term-lidong-night.png",
+          "bytes": 642859,
+          "sha256": "da2eb24fbf821961640060343e20ad4725fdbe846ced2ac7c90e21d18c8148d9"
+        },
+        "thumbnail": {
+          "path": "assets/themes-1.9.3/thumbnails/term-lidong-night.jpg",
+          "bytes": 34446,
+          "sha256": "9271e4697b1f43c7a8fac2080cfc4d5bbd9c3414da3e7479e7c3039f296bf95e"
+        }
+      }
+    },
+    {
+      "id": "term-xiaoxue",
+      "name": "小雪",
+      "category": "solar_term",
+      "category_name": "二十四节气",
+      "day": {
+        "image": {
+          "path": "assets/themes-1.9.3/full/term-xiaoxue-day.png",
+          "bytes": 609488,
+          "sha256": "8648e389020c4da9897c8a28a5cc41b3f0de9a3ea2f129947a74ebbabf499f1c"
+        },
+        "thumbnail": {
+          "path": "assets/themes-1.9.3/thumbnails/term-xiaoxue-day.jpg",
+          "bytes": 33584,
+          "sha256": "8309417a5a4ecef74cdc9bca110b0af452eed12ad418985bde1651441083fb10"
+        }
+      },
+      "night": {
+        "image": {
+          "path": "assets/themes-1.9.3/full/term-xiaoxue-night.png",
+          "bytes": 613662,
+          "sha256": "fd34861c4b94135349f28ead8f5514719bf02f8da3d66cef394a4e76f9bae216"
+        },
+        "thumbnail": {
+          "path": "assets/themes-1.9.3/thumbnails/term-xiaoxue-night.jpg",
+          "bytes": 34355,
+          "sha256": "e2e8848b6076883cce9d2fe75186b5ca617a399d281c2d14613899b188ebf1b8"
+        }
+      }
+    },
+    {
+      "id": "term-daxue",
+      "name": "大雪",
+      "category": "solar_term",
+      "category_name": "二十四节气",
+      "day": {
+        "image": {
+          "path": "assets/themes-1.9.3/full/term-daxue-day.png",
+          "bytes": 631677,
+          "sha256": "1fe6bf8efd4342db24e50529b59282137ce6e7026b89b7903fb70b629422fd3d"
+        },
+        "thumbnail": {
+          "path": "assets/themes-1.9.3/thumbnails/term-daxue-day.jpg",
+          "bytes": 33626,
+          "sha256": "3ff948a606e4eb951afb9e1a7561e059bb3e629a216ffc4697d1d2b0c6d74090"
+        }
+      },
+      "night": {
+        "image": {
+          "path": "assets/themes-1.9.3/full/term-daxue-night.png",
+          "bytes": 630932,
+          "sha256": "f944bbcae0a739a1d7fae39549a9ddcc2f42fbdb8b69a876b8c914de0686eaea"
+        },
+        "thumbnail": {
+          "path": "assets/themes-1.9.3/thumbnails/term-daxue-night.jpg",
+          "bytes": 34346,
+          "sha256": "33452e7cea2bb53bcb45d049c6a3de71d122c5637aaa1f53092ccd51c229c7ef"
+        }
+      }
+    },
+    {
+      "id": "term-dongzhi",
+      "name": "冬至",
+      "category": "solar_term",
+      "category_name": "二十四节气",
+      "day": {
+        "image": {
+          "path": "assets/themes-1.9.3/full/term-dongzhi-day.png",
+          "bytes": 601628,
+          "sha256": "f5264668aad5c9b74e1fcde953c9a62d2513e41396132c4c408c523cd93e7b39"
+        },
+        "thumbnail": {
+          "path": "assets/themes-1.9.3/thumbnails/term-dongzhi-day.jpg",
+          "bytes": 33563,
+          "sha256": "f08cded5527400c37a293f27fe1e68f8b50d81d1c5ed2f49784499ce7c0af86e"
+        }
+      },
+      "night": {
+        "image": {
+          "path": "assets/themes-1.9.3/full/term-dongzhi-night.png",
+          "bytes": 604505,
+          "sha256": "42e92f43894939cb92127d030a86248c005a88f8883f86570ef5041b9d8c2439"
+        },
+        "thumbnail": {
+          "path": "assets/themes-1.9.3/thumbnails/term-dongzhi-night.jpg",
+          "bytes": 34290,
+          "sha256": "1d391d81ac8dc60622f3a7c5bec1398e404554ddaa5f5d243fd2625bd53f7464"
+        }
+      }
+    }
+  ]
+}
