@@ -1,5 +1,75 @@
 # 芜湖站 B30：从0.1.0开始的完整逐版开发史
 
+<a name="latest-update"></a>
+## 2026年10月6日更新：41套年度主题与展示验证
+
+最新进展为 **1.9.3：17套节日/纪念日 + 24套节气，共41套主题**。本页下方保留0.1.0起全部旧开发史；旧基线与C1状态按当时证据阅读，后续完整过程见[1.9.1 C1/C2至1.9.3日志](#annual-development)。
+
+用户最新现场反馈为“现场看起来好像还不错”，记为**现场视觉反馈良好**。语音、真实SSE、在线天气/新闻、现场Excel等仍未单独验收。本次公开开发日志和合成车牌界面截图，不上传私人源码包、EXE、现场配置或鉴权材料。
+
+本地终态记录为 **493项回归、191项完整性、175项图库检查通过；600.053秒真实墙钟压力回放、5,815次采样、0错误**。具体范围和未完成项目见下方新增日志；测试数量不替代现场功能验收。此前[1.9.0 R1源码预览](https://github.com/md270965150-tech/wuhu-station-display/releases/tag/1.9.0-r1-source-preview-20261006)仍标注NOT INSTALLABLE，不代表最新完整安装包。
+
+## 1.9.3 全部 41 个主题日夜预览
+
+以下 82 张图片来自本地离线浏览器的合成数据测试，车牌、天气和新闻均为测试数据。点击缩略图可查看 1920 × 1080 原图；这些图片用于视觉展示，不代表语音、SSE 或 Excel 等功能已完成现场验收。
+
+### 17 个节日与纪念日
+
+| 主题 | 日间 | 夜间 |
+| --- | --- | --- |
+| 元旦 | <a href="assets/themes-1.9.3/full/newyear-day.png"><img src="assets/themes-1.9.3/thumbnails/newyear-day.jpg" width="320" alt="元旦 · 日间合成预览"></a> | <a href="assets/themes-1.9.3/full/newyear-night.png"><img src="assets/themes-1.9.3/thumbnails/newyear-night.jpg" width="320" alt="元旦 · 夜间合成预览"></a> |
+| 春节（含除夕） | <a href="assets/themes-1.9.3/full/spring-day.png"><img src="assets/themes-1.9.3/thumbnails/spring-day.jpg" width="320" alt="春节（含除夕） · 日间合成预览"></a> | <a href="assets/themes-1.9.3/full/spring-night.png"><img src="assets/themes-1.9.3/thumbnails/spring-night.jpg" width="320" alt="春节（含除夕） · 夜间合成预览"></a> |
+| 元宵 | <a href="assets/themes-1.9.3/full/lantern-day.png"><img src="assets/themes-1.9.3/thumbnails/lantern-day.jpg" width="320" alt="元宵 · 日间合成预览"></a> | <a href="assets/themes-1.9.3/full/lantern-night.png"><img src="assets/themes-1.9.3/thumbnails/lantern-night.jpg" width="320" alt="元宵 · 夜间合成预览"></a> |
+| 清明 | <a href="assets/themes-1.9.3/full/qingming-day.png"><img src="assets/themes-1.9.3/thumbnails/qingming-day.jpg" width="320" alt="清明 · 日间合成预览"></a> | <a href="assets/themes-1.9.3/full/qingming-night.png"><img src="assets/themes-1.9.3/thumbnails/qingming-night.jpg" width="320" alt="清明 · 夜间合成预览"></a> |
+| 劳动节 | <a href="assets/themes-1.9.3/full/labor-day.png"><img src="assets/themes-1.9.3/thumbnails/labor-day.jpg" width="320" alt="劳动节 · 日间合成预览"></a> | <a href="assets/themes-1.9.3/full/labor-night.png"><img src="assets/themes-1.9.3/thumbnails/labor-night.jpg" width="320" alt="劳动节 · 夜间合成预览"></a> |
+| 端午 | <a href="assets/themes-1.9.3/full/dragon-day.png"><img src="assets/themes-1.9.3/thumbnails/dragon-day.jpg" width="320" alt="端午 · 日间合成预览"></a> | <a href="assets/themes-1.9.3/full/dragon-night.png"><img src="assets/themes-1.9.3/thumbnails/dragon-night.jpg" width="320" alt="端午 · 夜间合成预览"></a> |
+| 七夕 | <a href="assets/themes-1.9.3/full/qixi-day.png"><img src="assets/themes-1.9.3/thumbnails/qixi-day.jpg" width="320" alt="七夕 · 日间合成预览"></a> | <a href="assets/themes-1.9.3/full/qixi-night.png"><img src="assets/themes-1.9.3/thumbnails/qixi-night.jpg" width="320" alt="七夕 · 夜间合成预览"></a> |
+| 中秋 | <a href="assets/themes-1.9.3/full/moon-day.png"><img src="assets/themes-1.9.3/thumbnails/moon-day.jpg" width="320" alt="中秋 · 日间合成预览"></a> | <a href="assets/themes-1.9.3/full/moon-night.png"><img src="assets/themes-1.9.3/thumbnails/moon-night.jpg" width="320" alt="中秋 · 夜间合成预览"></a> |
+| 国庆 | <a href="assets/themes-1.9.3/full/national-day.png"><img src="assets/themes-1.9.3/thumbnails/national-day.jpg" width="320" alt="国庆 · 日间合成预览"></a> | <a href="assets/themes-1.9.3/full/national-night.png"><img src="assets/themes-1.9.3/thumbnails/national-night.jpg" width="320" alt="国庆 · 夜间合成预览"></a> |
+| 重阳 | <a href="assets/themes-1.9.3/full/double-day.png"><img src="assets/themes-1.9.3/thumbnails/double-day.jpg" width="320" alt="重阳 · 日间合成预览"></a> | <a href="assets/themes-1.9.3/full/double-night.png"><img src="assets/themes-1.9.3/thumbnails/double-night.jpg" width="320" alt="重阳 · 夜间合成预览"></a> |
+| 腊八 | <a href="assets/themes-1.9.3/full/laba-day.png"><img src="assets/themes-1.9.3/thumbnails/laba-day.jpg" width="320" alt="腊八 · 日间合成预览"></a> | <a href="assets/themes-1.9.3/full/laba-night.png"><img src="assets/themes-1.9.3/thumbnails/laba-night.jpg" width="320" alt="腊八 · 夜间合成预览"></a> |
+| 小年 | <a href="assets/themes-1.9.3/full/small-day.png"><img src="assets/themes-1.9.3/thumbnails/small-day.jpg" width="320" alt="小年 · 日间合成预览"></a> | <a href="assets/themes-1.9.3/full/small-night.png"><img src="assets/themes-1.9.3/thumbnails/small-night.jpg" width="320" alt="小年 · 夜间合成预览"></a> |
+| 母亲节 | <a href="assets/themes-1.9.3/full/mother-day.png"><img src="assets/themes-1.9.3/thumbnails/mother-day.jpg" width="320" alt="母亲节 · 日间合成预览"></a> | <a href="assets/themes-1.9.3/full/mother-night.png"><img src="assets/themes-1.9.3/thumbnails/mother-night.jpg" width="320" alt="母亲节 · 夜间合成预览"></a> |
+| 父亲节 | <a href="assets/themes-1.9.3/full/father-day.png"><img src="assets/themes-1.9.3/thumbnails/father-day.jpg" width="320" alt="父亲节 · 日间合成预览"></a> | <a href="assets/themes-1.9.3/full/father-night.png"><img src="assets/themes-1.9.3/thumbnails/father-night.jpg" width="320" alt="父亲节 · 夜间合成预览"></a> |
+| 妇女节 | <a href="assets/themes-1.9.3/full/women-day.png"><img src="assets/themes-1.9.3/thumbnails/women-day.jpg" width="320" alt="妇女节 · 日间合成预览"></a> | <a href="assets/themes-1.9.3/full/women-night.png"><img src="assets/themes-1.9.3/thumbnails/women-night.jpg" width="320" alt="妇女节 · 夜间合成预览"></a> |
+| 青年节 | <a href="assets/themes-1.9.3/full/youth-day.png"><img src="assets/themes-1.9.3/thumbnails/youth-day.jpg" width="320" alt="青年节 · 日间合成预览"></a> | <a href="assets/themes-1.9.3/full/youth-night.png"><img src="assets/themes-1.9.3/thumbnails/youth-night.jpg" width="320" alt="青年节 · 夜间合成预览"></a> |
+| 台湾光复纪念日 | <a href="assets/themes-1.9.3/full/taiwan-retrocession-day.png"><img src="assets/themes-1.9.3/thumbnails/taiwan-retrocession-day.jpg" width="320" alt="台湾光复纪念日 · 日间合成预览"></a> | <a href="assets/themes-1.9.3/full/taiwan-retrocession-night.png"><img src="assets/themes-1.9.3/thumbnails/taiwan-retrocession-night.jpg" width="320" alt="台湾光复纪念日 · 夜间合成预览"></a> |
+
+### 24 个节气
+
+| 主题 | 日间 | 夜间 |
+| --- | --- | --- |
+| 小寒 | <a href="assets/themes-1.9.3/full/term-xiaohan-day.png"><img src="assets/themes-1.9.3/thumbnails/term-xiaohan-day.jpg" width="320" alt="小寒 · 日间合成预览"></a> | <a href="assets/themes-1.9.3/full/term-xiaohan-night.png"><img src="assets/themes-1.9.3/thumbnails/term-xiaohan-night.jpg" width="320" alt="小寒 · 夜间合成预览"></a> |
+| 大寒 | <a href="assets/themes-1.9.3/full/term-dahan-day.png"><img src="assets/themes-1.9.3/thumbnails/term-dahan-day.jpg" width="320" alt="大寒 · 日间合成预览"></a> | <a href="assets/themes-1.9.3/full/term-dahan-night.png"><img src="assets/themes-1.9.3/thumbnails/term-dahan-night.jpg" width="320" alt="大寒 · 夜间合成预览"></a> |
+| 立春 | <a href="assets/themes-1.9.3/full/term-lichun-day.png"><img src="assets/themes-1.9.3/thumbnails/term-lichun-day.jpg" width="320" alt="立春 · 日间合成预览"></a> | <a href="assets/themes-1.9.3/full/term-lichun-night.png"><img src="assets/themes-1.9.3/thumbnails/term-lichun-night.jpg" width="320" alt="立春 · 夜间合成预览"></a> |
+| 雨水 | <a href="assets/themes-1.9.3/full/term-yushui-day.png"><img src="assets/themes-1.9.3/thumbnails/term-yushui-day.jpg" width="320" alt="雨水 · 日间合成预览"></a> | <a href="assets/themes-1.9.3/full/term-yushui-night.png"><img src="assets/themes-1.9.3/thumbnails/term-yushui-night.jpg" width="320" alt="雨水 · 夜间合成预览"></a> |
+| 惊蛰 | <a href="assets/themes-1.9.3/full/term-jingzhe-day.png"><img src="assets/themes-1.9.3/thumbnails/term-jingzhe-day.jpg" width="320" alt="惊蛰 · 日间合成预览"></a> | <a href="assets/themes-1.9.3/full/term-jingzhe-night.png"><img src="assets/themes-1.9.3/thumbnails/term-jingzhe-night.jpg" width="320" alt="惊蛰 · 夜间合成预览"></a> |
+| 春分 | <a href="assets/themes-1.9.3/full/term-chunfen-day.png"><img src="assets/themes-1.9.3/thumbnails/term-chunfen-day.jpg" width="320" alt="春分 · 日间合成预览"></a> | <a href="assets/themes-1.9.3/full/term-chunfen-night.png"><img src="assets/themes-1.9.3/thumbnails/term-chunfen-night.jpg" width="320" alt="春分 · 夜间合成预览"></a> |
+| 清明 | <a href="assets/themes-1.9.3/full/term-qingming-day.png"><img src="assets/themes-1.9.3/thumbnails/term-qingming-day.jpg" width="320" alt="清明 · 日间合成预览"></a> | <a href="assets/themes-1.9.3/full/term-qingming-night.png"><img src="assets/themes-1.9.3/thumbnails/term-qingming-night.jpg" width="320" alt="清明 · 夜间合成预览"></a> |
+| 谷雨 | <a href="assets/themes-1.9.3/full/term-guyu-day.png"><img src="assets/themes-1.9.3/thumbnails/term-guyu-day.jpg" width="320" alt="谷雨 · 日间合成预览"></a> | <a href="assets/themes-1.9.3/full/term-guyu-night.png"><img src="assets/themes-1.9.3/thumbnails/term-guyu-night.jpg" width="320" alt="谷雨 · 夜间合成预览"></a> |
+| 立夏 | <a href="assets/themes-1.9.3/full/term-lixia-day.png"><img src="assets/themes-1.9.3/thumbnails/term-lixia-day.jpg" width="320" alt="立夏 · 日间合成预览"></a> | <a href="assets/themes-1.9.3/full/term-lixia-night.png"><img src="assets/themes-1.9.3/thumbnails/term-lixia-night.jpg" width="320" alt="立夏 · 夜间合成预览"></a> |
+| 小满 | <a href="assets/themes-1.9.3/full/term-xiaoman-day.png"><img src="assets/themes-1.9.3/thumbnails/term-xiaoman-day.jpg" width="320" alt="小满 · 日间合成预览"></a> | <a href="assets/themes-1.9.3/full/term-xiaoman-night.png"><img src="assets/themes-1.9.3/thumbnails/term-xiaoman-night.jpg" width="320" alt="小满 · 夜间合成预览"></a> |
+| 芒种 | <a href="assets/themes-1.9.3/full/term-mangzhong-day.png"><img src="assets/themes-1.9.3/thumbnails/term-mangzhong-day.jpg" width="320" alt="芒种 · 日间合成预览"></a> | <a href="assets/themes-1.9.3/full/term-mangzhong-night.png"><img src="assets/themes-1.9.3/thumbnails/term-mangzhong-night.jpg" width="320" alt="芒种 · 夜间合成预览"></a> |
+| 夏至 | <a href="assets/themes-1.9.3/full/term-xiazhi-day.png"><img src="assets/themes-1.9.3/thumbnails/term-xiazhi-day.jpg" width="320" alt="夏至 · 日间合成预览"></a> | <a href="assets/themes-1.9.3/full/term-xiazhi-night.png"><img src="assets/themes-1.9.3/thumbnails/term-xiazhi-night.jpg" width="320" alt="夏至 · 夜间合成预览"></a> |
+| 小暑 | <a href="assets/themes-1.9.3/full/term-xiaoshu-day.png"><img src="assets/themes-1.9.3/thumbnails/term-xiaoshu-day.jpg" width="320" alt="小暑 · 日间合成预览"></a> | <a href="assets/themes-1.9.3/full/term-xiaoshu-night.png"><img src="assets/themes-1.9.3/thumbnails/term-xiaoshu-night.jpg" width="320" alt="小暑 · 夜间合成预览"></a> |
+| 大暑 | <a href="assets/themes-1.9.3/full/term-dashu-day.png"><img src="assets/themes-1.9.3/thumbnails/term-dashu-day.jpg" width="320" alt="大暑 · 日间合成预览"></a> | <a href="assets/themes-1.9.3/full/term-dashu-night.png"><img src="assets/themes-1.9.3/thumbnails/term-dashu-night.jpg" width="320" alt="大暑 · 夜间合成预览"></a> |
+| 立秋 | <a href="assets/themes-1.9.3/full/term-liqiu-day.png"><img src="assets/themes-1.9.3/thumbnails/term-liqiu-day.jpg" width="320" alt="立秋 · 日间合成预览"></a> | <a href="assets/themes-1.9.3/full/term-liqiu-night.png"><img src="assets/themes-1.9.3/thumbnails/term-liqiu-night.jpg" width="320" alt="立秋 · 夜间合成预览"></a> |
+| 处暑 | <a href="assets/themes-1.9.3/full/term-chushu-day.png"><img src="assets/themes-1.9.3/thumbnails/term-chushu-day.jpg" width="320" alt="处暑 · 日间合成预览"></a> | <a href="assets/themes-1.9.3/full/term-chushu-night.png"><img src="assets/themes-1.9.3/thumbnails/term-chushu-night.jpg" width="320" alt="处暑 · 夜间合成预览"></a> |
+| 白露 | <a href="assets/themes-1.9.3/full/term-bailu-day.png"><img src="assets/themes-1.9.3/thumbnails/term-bailu-day.jpg" width="320" alt="白露 · 日间合成预览"></a> | <a href="assets/themes-1.9.3/full/term-bailu-night.png"><img src="assets/themes-1.9.3/thumbnails/term-bailu-night.jpg" width="320" alt="白露 · 夜间合成预览"></a> |
+| 秋分 | <a href="assets/themes-1.9.3/full/term-qiufen-day.png"><img src="assets/themes-1.9.3/thumbnails/term-qiufen-day.jpg" width="320" alt="秋分 · 日间合成预览"></a> | <a href="assets/themes-1.9.3/full/term-qiufen-night.png"><img src="assets/themes-1.9.3/thumbnails/term-qiufen-night.jpg" width="320" alt="秋分 · 夜间合成预览"></a> |
+| 寒露 | <a href="assets/themes-1.9.3/full/term-hanlu-day.png"><img src="assets/themes-1.9.3/thumbnails/term-hanlu-day.jpg" width="320" alt="寒露 · 日间合成预览"></a> | <a href="assets/themes-1.9.3/full/term-hanlu-night.png"><img src="assets/themes-1.9.3/thumbnails/term-hanlu-night.jpg" width="320" alt="寒露 · 夜间合成预览"></a> |
+| 霜降 | <a href="assets/themes-1.9.3/full/term-shuangjiang-day.png"><img src="assets/themes-1.9.3/thumbnails/term-shuangjiang-day.jpg" width="320" alt="霜降 · 日间合成预览"></a> | <a href="assets/themes-1.9.3/full/term-shuangjiang-night.png"><img src="assets/themes-1.9.3/thumbnails/term-shuangjiang-night.jpg" width="320" alt="霜降 · 夜间合成预览"></a> |
+| 立冬 | <a href="assets/themes-1.9.3/full/term-lidong-day.png"><img src="assets/themes-1.9.3/thumbnails/term-lidong-day.jpg" width="320" alt="立冬 · 日间合成预览"></a> | <a href="assets/themes-1.9.3/full/term-lidong-night.png"><img src="assets/themes-1.9.3/thumbnails/term-lidong-night.jpg" width="320" alt="立冬 · 夜间合成预览"></a> |
+| 小雪 | <a href="assets/themes-1.9.3/full/term-xiaoxue-day.png"><img src="assets/themes-1.9.3/thumbnails/term-xiaoxue-day.jpg" width="320" alt="小雪 · 日间合成预览"></a> | <a href="assets/themes-1.9.3/full/term-xiaoxue-night.png"><img src="assets/themes-1.9.3/thumbnails/term-xiaoxue-night.jpg" width="320" alt="小雪 · 夜间合成预览"></a> |
+| 大雪 | <a href="assets/themes-1.9.3/full/term-daxue-day.png"><img src="assets/themes-1.9.3/thumbnails/term-daxue-day.jpg" width="320" alt="大雪 · 日间合成预览"></a> | <a href="assets/themes-1.9.3/full/term-daxue-night.png"><img src="assets/themes-1.9.3/thumbnails/term-daxue-night.jpg" width="320" alt="大雪 · 夜间合成预览"></a> |
+| 冬至 | <a href="assets/themes-1.9.3/full/term-dongzhi-day.png"><img src="assets/themes-1.9.3/thumbnails/term-dongzhi-day.jpg" width="320" alt="冬至 · 日间合成预览"></a> | <a href="assets/themes-1.9.3/full/term-dongzhi-night.png"><img src="assets/themes-1.9.3/thumbnails/term-dongzhi-night.jpg" width="320" alt="冬至 · 夜间合成预览"></a> |
+
+
+
+<a name="preserved-history"></a>
+## 以下为保留的原完整开发史
+
+
 芜湖站东广场负一层网约车上车区的浏览器大屏与分区语音项目。核心任务是：**看见完整车牌，认准A/B分区，前往上车。**
 
 本页把早期需求、各版修改、失败尝试、测试记录、现场反馈和后续修正合并在同一篇文档中。目录均跳到本页相应章节，可以连续向下阅读，不必逐个打开分章。资料补充截至**2026年10月6日**。
@@ -2024,3 +2094,74 @@ R1的主要变化是让跨模块故障也遵守相同的车辆身份、播放状
 ## 归档说明
 
 原分章、版本索引和9月5日复盘仍保留作为档案，没有删除旧文档。本页为完整连续阅读入口；分章与旧快照可能保留当时的证据范围，阅读新增事实以本页及注明日期的补证说明为准。
+
+
+<a name="annual-development"></a>
+## 1.9.1 C1/C2至1.9.3：展示修复与41套年度主题
+
+本节补记2026年10月4日至6日的后续开发。此前关于WIP、C1及R1基线的记录保留其当时范围；后续进展依次为C2展示修复、1.9.2的36套年度主题，再到1.9.3的41套主题。本次公开更新为开发日志与合成数据界面图，不公开私人安装包、真实车辆图片或现场配置。
+
+### 1.9.1 C1：先划定展示层及集成边界
+
+C1在R1基础上增加节日与日夜外观、北京时间日期识别、天气时效提醒、新闻展示和手动恢复控制。相对49份脱敏R1原文件，46份逐字节不变，原文件只改版本入口、监控页加载入口与显示层，另增5个presentation模块。语音、SSE、Excel及本机服务仍沿用受保护基线。178项离线检查与62项产物核验通过，但当时实际浏览器截图为0张，因此标记NOT FOR FIELD INSTALLATION，不能把功能适配器的结果当作CSS布局验收。此前C1章节已保留其天气时间解析、普通公告展示变化及待验收行为。[续H01]
+
+10月5日形成两种审核用集成路径：保留原manifest的两文件覆盖，以及在完整R1副本上只增量修改允许字段的整合方式。28项整合与回退测试通过；两条路径分别复跑178项离线检查。这是不同集成路径的重复验证，不累计为356项新增覆盖。整合工具校验原件、受保护字节和回退结果，拒绝错误基线与部分集成；这些材料仍是审核候选，尚无真实渲染截图。[续H02]
+
+### 1.9.1 C2：修复焦点布局，再补实际浏览器验证
+
+C2回应展示回归：新版标题区增高后，语音焦点仍沿用旧坐标，造成普通区头与焦点区头叠加；到场提示与副标题也可能同时绘制。修订让显示层共享标题与区头高度，明确普通区头、紧凑区头、副标题、到场提示与语音焦点的互斥状态。保留节日中文名、实际日期旁SVG、普通提醒及天气SVG，移除国旗国徽装饰，官方预警缺少可选发布信息时给出明确提示。语音、SSE、Excel核心未因此重写。[续H03]
+
+云端阶段的290项离线检查及62项产物核验通过，但浏览器预览被阻塞，所以该阶段仍保留真实渲染NOT_RUN。随后在独立Mac测试目录补齐实际Chrome验证。终态复跑发现原版回退皮肤的长官方发布单位会把行动提醒推入新闻区域，局部调整预警排版后重新执行最终检查；测试页按代码哈希加载，避免缓存旧脚本。该修订仍属于展示层。[续H03、续H04]
+
+C2的最终Mac结果为315/315离线回归、28/28整合回退检查通过。实际浏览器覆盖14种模式（12节日、日常、原版）在日夜及空载/满载下的56场景；100组A/B数量组合共1,212次采样；11组新闻、天气及预警场景；12组日期与恢复场景；14组视口尺寸场景及4组原生非16:9窗口场景。独立真实墙钟压力回放600.0413秒、5,801次采样、0错误，另有独立A/B实际时序检查。合成语音焦点验证的是状态及布局，可听播报仍需现场确认。原生125%/150%缩放未验，调整视口不代替浏览器缩放。[续H04]
+
+整合后的私有候选保留123份R1受保护文件、73个基础兜底音频和12个本机服务文件的原字节。原件与回退副本也经逐文件比对。私有资源的保留仅用于既有现场流程兼容，不代表取得公开再分发许可；本仓库此次只展示文档与合成截图。[续H04]
+
+### 1.9.2：36套年度主题作为独立资源层
+
+在已核验C2上独立增加12套节日主题与24套节气主题，共36张1920×1080无字WebP，以及4个年度展示模块。日夜共用同一主题背景，通过界面样式切换明暗；背景不使用动画，不把整屏截图当背景，也不预加载整套目录。保留B左蓝、A右橙、每区8辆、完整车牌与到达/停留时间、独立5秒翻页及倒计时、一行离场信息、新闻来源与发布时间、天气指标及更新时刻、官方预警优先和手动原版回退。[续H05]
+
+主题按北京时间自动识别：06:00至18:00前为日间，其余为夜间；节日结束恢复实际当日主题。手动预览保留真实日期标签，到期恢复自动；小年仍可选择北方、南方或关闭。2026/2027节气和传统日期依既有香港天文台历表核对，未核验年份不自行推算农历或节气，也不编造调休假期。节气提示属于日历文化标签，不表示现场实际天气；普通关怀提醒保持低频，不能盖过有效官方预警。[续H05]
+
+36张WebP合计5,925,902字节。只保留当前与紧邻下一主题，最多2个解码Image引用，RGBA引用理论上限16,588,800字节；这项统计不包含Chromium内部缓存、GPU或整个浏览器进程内存。缺图和未核验资源回退日常，迟到回调不能重新覆盖已恢复的原版。保留原73段音频、12个服务文件及语音/SSE/Excel业务模块，不增加整车牌音频；原3张雷电黄、橙、红官方图保持原字节，其他预警采用明确文字及中性兜底。[续H05]
+
+本地离线验证415项通过，包含既有315项回归、96项年度主题/日历/资源检查及4项年度集成检查。实际Mac Chrome验证152主题场景、100组数量组合、11组特殊场景、12组日期场景、14组视口场景及168项资源与约束检查。最终文件与资源完整性119项通过；36主题日夜共72张满载A8+B8截图形成图库，155项加载、点击放大、日夜切换和前后循环检查通过。独立无头Chrome真实墙钟压力600.0641秒、5,771次采样、0错误；另一次桌面可见压力尝试未完成，保留记录且不计通过。Windows加载、真实数据、可听语音、现场Excel、原生缩放与大屏观看距离仍未验收。[续H05]
+
+### 1.9.3：补齐5套纪念日，扩展至41套
+
+在1.9.2的36套主题上增加母亲节、父亲节、妇女节、青年节、台湾光复纪念日5套背景、日期识别与关怀提醒，合计17套节日/纪念日与24套节气，共41套。母亲节按五月第二个星期日、父亲节按六月第三个星期日识别；妇女节3月8日、青年节5月4日、台湾光复纪念日10月25日。日期识别与假期安排分开。新增纪念日采用克制图案，不使用庆祝口号，也不虚构设施、天气或现场状态。[续H06]
+
+新增日期以独立日历核算检查2026、2027、2028年；2026年父亲节与夏至同日时保留两个真实标签，青年节可覆盖旧劳动假期预览范围但不推断放假。农历及节气沿用原已核对表，已知公历日期不借用上一年的农历或节气。相对1.9.2的171个文件，167个逐字节不变，仅4个启动、版本及清单文件改变，新增3个模块与5张WebP；R1和C2受保护业务文件保持不变。[续H06、续H07]
+
+41张WebP共7,226,178字节，新增5张共1,300,276字节。继续采用当前/下一主题最多2个解码Image引用，不新增车牌音频或动画。41主题日夜共82张截图均来自真实Chrome离线合成数据渲染，1920×1080、满载A8+B8；几何检查未检测到遮挡、裁切或车行丢失，背景资源就绪。图库分为17套节日/纪念日与24套节气，公开页展示日夜缩略图，点击可看大图。截图与图库独立于安装包。[续H06、续H08]
+
+最终本地检查493/493 Node回归、191项文件/资源/截图完整性、175项实际Chrome图库检查全部通过。浏览器检查包括172主题场景、100组数量组合与1,212次采样、11特殊场景、12日期场景、14视口场景、188项资源与业务约束，以及新增纪念日338项检查/40场景。图库175项包含82张图加载、82次点击放大、日夜切换与前后循环；这些数量分属不同测试范围，不相加宣称总体验收。[续H06、续H07、续H08]
+
+独立无头Chrome真实墙钟压力复测为600.053秒、5,815次采样、0错误，未加速时钟，覆盖41主题、合成进离场、重复及历史回放、语音焦点、翻页和资源上限。最短实际定时翻页截止间隔为5,000毫秒，复测前后179个生产文件哈希相同。首次压力观察器因延迟把观察间隔误判偏短，保留失败记录；修正测试依据为生产截止时间差后完整复跑10分钟，生产翻页行为未改变。另一次批量浏览器驱动超时也保留且不计通过。[续H06、续H09]
+
+用户随后反馈“现场看起来好像还不错”，本日志记为**现场视觉反馈良好**。语音、真实SSE、在线天气/新闻、现场Excel等仍未单独验收；此次本地结果和视觉反馈不能合并称为完整现场验收。原生Chrome 125%/150%缩放、85英寸屏幕观看距离、桌面可见10分钟回放也没有本次完成记录。公开图库采用合成车牌与合成业务数据，不使用现场真实车辆图片。[续H06；用户视觉反馈]
+
+### 这一轮的验证证据与公开范围
+
+| 阶段 | 已有结果 | 证据与范围 |
+| --- | --- | --- |
+| 1.9.1 C1 | 178项离线、62项产物核验 | 展示层候选；当时实际截图0张 |
+| C1审核集成 | 28项整合/回退；两种路径分别178项 | 不累计复跑次数；未做像素验收 |
+| 1.9.1 C2云端 | 290项离线、62项产物核验 | 静态与模拟时钟；实际浏览器当时阻塞 |
+| 1.9.1 C2 Mac终态 | 315项回归、28项整合/回退、56主题场景；600.0413秒/5,801采样/0错误 | 最终代码实际浏览器与合成数据；原生缩放及现场语音等未验 |
+| 1.9.2 36主题 | 415项回归、119项完整性、155项图库；600.0641秒/5,771采样/0错误 | 72张日夜合成截图；无头真实墙钟，不算桌面可见回放 |
+| 1.9.3 41主题 | 493项回归、191项完整性、175项图库；600.053秒/5,815采样/0错误 | 82张日夜合成截图；现场视觉反馈良好，其他现场功能未单独验收 |
+
+来源按终态材料核对，以下只列文档与报告名称，未公开私人安装包、现场路径或鉴权内容：
+
+- 续H01：`B30_1.9.1_C1_Test_Changes_Recovery_NOT_FOR_FIELD_INSTALLATION.txt`及此前README的C1历史记录，2026-10-04。
+- 续H02：`README_REVIEW_ONLY.txt`与对应整合、回退和两路径离线记录，2026-10-05。
+- 续H03：`C2_TEST_REPORT.txt`，C2云端静态修复及浏览器阻塞边界，2026-10-06。
+- 续H04：`B30_1.9.1_C2_Mac终态测试报告.txt`及`terminal-walltime-final.json`、`mac-terminal-full.tap`等终态记录，2026-10-06。
+- 续H05：1.9.2《离线测试报告.txt》、`final-delivery-summary.json`与对应415项回归、完整性、图库和压力结果，2026-10-06。
+- 续H06：1.9.3《离线测试报告.txt》及《安装回退说明.txt》，2026-10-06。
+- 续H07：`all-node-final41-r2.tap`（493通过/0失败）、`annual-artifact-verification.json`（191通过/0失败）。
+- 续H08：`gallery-browser-verification.json`（41主题、82截图、175项通过）、`gallery-41-captures.json`（合成数据实际Chrome截图记录）。
+- 续H09：`browser-walltime-headless.json`（实际600,053.3毫秒、5,815采样、errors为空、未加速时钟），以及保留的失败尝试和观察器修正记录。正文按秒保留三位小数。
+
+本次只补开发史与公开合成图，不改变已有源码预览的NOT INSTALLABLE状态，不新增代码许可，也不发布含原配置、凭据、本机服务或未核实再分发资源的私人安装包。
