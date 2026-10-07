@@ -1,5 +1,12 @@
 # 芜湖站 B30：从0.1.0开始的完整逐版开发史
 
+<a name="public-preview-193"></a>
+## 2026年10月7日：1.9.3 公共可配置预发布
+
+[查看预发布说明](https://github.com/md270965150-tech/wuhu-station-display/releases/tag/1.9.3-public-preview-20261007) · [下载 ZIP](https://github.com/md270965150-tech/wuhu-station-display/releases/download/1.9.3-public-preview-20261007/B30_1.9.3_Public_Configurable_Candidate_Windows_Unverified_20261007.zip)。此候选默认系统 TTS；原生模式需用户提供合法外部 provider 配置并另做 Windows 验证。保留 41 套背景和字体/OFL，排除 73 段 MP3、3 张天气 JPG 与旧 EXE，未新增 MIT 或其他代码许可。实际 Chrome、Windows 安装、真实出声与现场功能仍未验收。
+
+离线结果为 436 项年度展示、120 项公共功能、15 项原生静态契约及 25 项扫描工具检查通过。ZIP 为 **15,342,159 字节**；SHA256：`cd4ae0e00a8bb7facd0602194be99c17b380711b1eea42bbe4033bc1ea3e419d`。各项范围与后续实机步骤见预发布说明及包内验证文档。
+
 <a name="latest-update"></a>
 ## 2026年10月6日更新：41套年度主题与展示验证
 
